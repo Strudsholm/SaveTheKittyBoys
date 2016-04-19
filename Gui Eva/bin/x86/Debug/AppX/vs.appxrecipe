@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ae2b822c-fee7-427b-87b2-4eb171059ec8</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>AA4B56FE184CB14F42EEC8D3C2801031F911FF755F1D6E3084FA233A46B30DA6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>8B4F8B7E78631E2E96124C1027462B2B5FEC82E388F819F4330E6560089F54B8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ae2b822c-fee7-427b-87b2-4eb171059ec8_1.0.0.0_x86__96zs3djwa88zp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ae2b822c-fee7-427b-87b2-4eb171059ec8_96zs3djwa88zp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ae2b822c-fee7-427b-87b2-4eb171059ec8</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-07T09:12:50.435</Modified>
+      <Modified>2016-04-19T08:34:08.357</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -66,7 +66,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\entrypoint\Gui Eva.exe">
       <PackagePath>entrypoint\Gui Eva.exe</PackagePath>
-      <Modified>2016-04-07T09:12:49.497</Modified>
+      <Modified>2016-04-19T08:34:07.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Eva Logo.png">
       <PackagePath>Eva Logo.png</PackagePath>
@@ -78,11 +78,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Gui Eva.exe">
       <PackagePath>Gui Eva.exe</PackagePath>
-      <Modified>2016-04-07T09:12:50.433</Modified>
+      <Modified>2016-04-19T08:34:08.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Gui Eva.xr.xml">
       <PackagePath>Gui Eva.xr.xml</PackagePath>
-      <Modified>2016-04-07T09:11:09.503</Modified>
+      <Modified>2016-04-19T08:33:08.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -108,13 +108,21 @@
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2016-01-27T09:31:25.752</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-12-10T17:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-12-10T17:08:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-04-06T08:35:06.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-07T09:12:49.931</Modified>
+      <Modified>2016-04-19T08:34:07.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Statue_of_Liberty_7.jpg">
       <PackagePath>Statue_of_Liberty_7.jpg</PackagePath>
@@ -518,7 +526,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2015-10-27T11:57:23.802</Modified>
+      <Modified>2016-04-18T11:31:01.673</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

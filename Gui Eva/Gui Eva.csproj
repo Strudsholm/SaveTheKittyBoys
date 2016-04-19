@@ -99,6 +99,9 @@
     <Compile Include="Forside1.xaml.cs">
       <DependentUpon>Forside1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MaterialePage.xaml.cs">
+      <DependentUpon>MaterialePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="OpretstatueUI.xaml.cs">
       <DependentUpon>OpretstatueUI.xaml</DependentUpon>
     </Compile>
@@ -132,10 +135,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MaterialePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="OpretstatueUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="BehaviorsXamlSDKManaged, Version=12.0">
+      <Name>BehaviorsXamlSDKManaged</Name>
+    </SDKReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

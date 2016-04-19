@@ -81,6 +81,12 @@
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

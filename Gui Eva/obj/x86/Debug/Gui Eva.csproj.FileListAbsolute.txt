@@ -453,3 +453,13 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Microsoft.Xaml.Int
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Microsoft.Xaml.Interactions.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Microsoft.Xaml.Interactivity.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Gui Eva.csprojResolveAssemblyReference.cache
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Adminstrative Funktioner.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Adminstrative Funktioner.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Adminstrative Funktioner.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Adminstrative Funktioner.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Adminstrative Funktioner.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Opret skade.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Opret skade.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Opret skade.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Opret skade.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Opret skade.xbf

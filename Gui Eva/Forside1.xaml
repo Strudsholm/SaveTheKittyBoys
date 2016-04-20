@@ -10,13 +10,7 @@
 
     <Grid Background="#FF366BFF">
         <Button x:Name="button" Content="Find Statue" Margin="370,311,370,235" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" FontSize="32"/>
-        <Button x:Name="button1" Content="Adminstrative Funktioner" Margin="520,0" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Height="74" d:LayoutOverrides="LeftPosition, RightPosition" FontSize="32">
-            <Interactivity:Interaction.Behaviors>
-                <Core:EventTriggerBehavior EventName="Click">
-                    <Core:NavigateToPageAction TargetPage="Gui_Eva.Forside"/>
-                </Core:EventTriggerBehavior>
-            </Interactivity:Interaction.Behaviors>
-        </Button>
+        <Button x:Name="button1" Content="Adminstrative Funktioner" Margin="520,0" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Height="74" d:LayoutOverrides="LeftPosition, RightPosition" FontSize="32" Flyout="{StaticResource Login}"/>
         <Grid Height="172" Margin="580,57,580,0" VerticalAlignment="Top">
             <Grid.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Eva Logo2.0.png"/>

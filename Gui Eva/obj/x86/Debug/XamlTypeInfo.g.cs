@@ -132,7 +132,7 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[14];
+            _typeNameTable = new string[16];
             _typeNameTable[0] = "Microsoft.Xaml.Interactivity.Interaction";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
@@ -142,13 +142,15 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeNameTable[6] = "Microsoft.Xaml.Interactivity.ActionCollection";
             _typeNameTable[7] = "String";
             _typeNameTable[8] = "Microsoft.Xaml.Interactions.Core.NavigateToPageAction";
-            _typeNameTable[9] = "Gui_Eva.Forside1";
+            _typeNameTable[9] = "Gui_Eva.Adminstrative_Funktioner";
             _typeNameTable[10] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[11] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[12] = "Gui_Eva.MaterialePage";
-            _typeNameTable[13] = "Gui_Eva.Forside";
+            _typeNameTable[12] = "Gui_Eva.Forside1";
+            _typeNameTable[13] = "Gui_Eva.MaterialePage";
+            _typeNameTable[14] = "Gui_Eva.Opret_skade";
+            _typeNameTable[15] = "Gui_Eva.Forside";
 
-            _typeTable = new global::System.Type[14];
+            _typeTable = new global::System.Type[16];
             _typeTable[0] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
@@ -158,11 +160,13 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeTable[6] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
             _typeTable[7] = typeof(global::System.String);
             _typeTable[8] = typeof(global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction);
-            _typeTable[9] = typeof(global::Gui_Eva.Forside1);
+            _typeTable[9] = typeof(global::Gui_Eva.Adminstrative_Funktioner);
             _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[12] = typeof(global::Gui_Eva.MaterialePage);
-            _typeTable[13] = typeof(global::Gui_Eva.Forside);
+            _typeTable[12] = typeof(global::Gui_Eva.Forside1);
+            _typeTable[13] = typeof(global::Gui_Eva.MaterialePage);
+            _typeTable[14] = typeof(global::Gui_Eva.Opret_skade);
+            _typeTable[15] = typeof(global::Gui_Eva.Forside);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -201,9 +205,11 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
         private object Activate_5_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
         private object Activate_6_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
         private object Activate_8_NavigateToPageAction() { return new global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction(); }
-        private object Activate_9_Forside1() { return new global::Gui_Eva.Forside1(); }
-        private object Activate_12_MaterialePage() { return new global::Gui_Eva.MaterialePage(); }
-        private object Activate_13_Forside() { return new global::Gui_Eva.Forside(); }
+        private object Activate_9_Adminstrative_Funktioner() { return new global::Gui_Eva.Adminstrative_Funktioner(); }
+        private object Activate_12_Forside1() { return new global::Gui_Eva.Forside1(); }
+        private object Activate_13_MaterialePage() { return new global::Gui_Eva.MaterialePage(); }
+        private object Activate_14_Opret_skade() { return new global::Gui_Eva.Opret_skade(); }
+        private object Activate_15_Forside() { return new global::Gui_Eva.Forside(); }
         private void VectorAdd_2_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
@@ -282,9 +288,9 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  Gui_Eva.Forside1
+            case 9:   //  Gui_Eva.Adminstrative_Funktioner
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_Forside1;
+                userType.Activator = Activate_9_Adminstrative_Funktioner;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -297,16 +303,30 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 12:   //  Gui_Eva.MaterialePage
+            case 12:   //  Gui_Eva.Forside1
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_MaterialePage;
+                userType.Activator = Activate_12_Forside1;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Gui_Eva.Forside
+            case 13:   //  Gui_Eva.MaterialePage
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_Forside;
+                userType.Activator = Activate_13_MaterialePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  Gui_Eva.Opret_skade
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_Opret_skade;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Gui_Eva.Forside
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_Forside;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

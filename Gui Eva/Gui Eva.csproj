@@ -93,6 +93,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adminstrative Funktioner.xaml.cs">
+      <DependentUpon>Adminstrative Funktioner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -101,6 +104,9 @@
     </Compile>
     <Compile Include="MaterialePage.xaml.cs">
       <DependentUpon>MaterialePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Opret skade.xaml.cs">
+      <DependentUpon>Opret skade.xaml</DependentUpon>
     </Compile>
     <Compile Include="OpretstatueUI.xaml.cs">
       <DependentUpon>OpretstatueUI.xaml</DependentUpon>
@@ -131,11 +137,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Adminstrative Funktioner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Forside1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MaterialePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Opret skade.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

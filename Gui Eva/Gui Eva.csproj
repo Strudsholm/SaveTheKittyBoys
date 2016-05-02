@@ -93,22 +93,28 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adminstrative Funktioner.xaml.cs">
+    <Compile Include="View\Gui\Find Statue Turist.xaml.cs">
+      <DependentUpon>Find Statue Turist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Gui\Find Statue.xaml.cs">
+      <DependentUpon>Find Statue.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Gui\Adminstrative Funktioner.xaml.cs">
       <DependentUpon>Adminstrative Funktioner.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Forside1.xaml.cs">
+    <Compile Include="View\Gui\Forside1.xaml.cs">
       <DependentUpon>Forside1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MaterialePage.xaml.cs">
+    <Compile Include="View\Gui\MaterialePage.xaml.cs">
       <DependentUpon>MaterialePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Opret skade.xaml.cs">
+    <Compile Include="View\Gui\Opret skade.xaml.cs">
       <DependentUpon>Opret skade.xaml</DependentUpon>
     </Compile>
-    <Compile Include="OpretstatueUI.xaml.cs">
+    <Compile Include="View\Gui\OpretstatueUI.xaml.cs">
       <DependentUpon>OpretstatueUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,8 +126,8 @@
     <None Include="Gui Eva_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Eva Logo.png" />
-    <Content Include="Eva Logo2.0.png" />
+    <Content Include="View\Gui\Bileder\Eva Logo.png" />
+    <Content Include="View\Gui\Bileder\Eva Logo2.0.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -130,30 +136,39 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="Statue_of_Liberty_7.jpg" />
+    <Content Include="View\Gui\Bileder\Statue_of_Liberty_7.jpg" />
+    <Content Include="View\Gui\the_damaged_statue_of_st_dominic_photo_by_sally_ra_1215301302.JPG" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Adminstrative Funktioner.xaml">
+    <Page Include="View\Gui\Find Statue Turist.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Forside1.xaml">
+    <Page Include="View\Gui\Find Statue.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MaterialePage.xaml">
+    <Page Include="View\Gui\Adminstrative Funktioner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Opret skade.xaml">
+    <Page Include="View\Gui\Forside1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="OpretstatueUI.xaml">
+    <Page Include="View\Gui\MaterialePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Gui\Opret skade.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Gui\OpretstatueUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -162,6 +177,10 @@
     <SDKReference Include="BehaviorsXamlSDKManaged, Version=12.0">
       <Name>BehaviorsXamlSDKManaged</Name>
     </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

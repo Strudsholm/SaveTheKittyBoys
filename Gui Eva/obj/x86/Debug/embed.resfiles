@@ -1,6 +1,8 @@
-Adminstrative Funktioner.xbf
 App.xbf
-Forside1.xbf
-MaterialePage.xbf
-Opret skade.xbf
-OpretstatueUI.xbf
+View\Gui\Adminstrative Funktioner.xbf
+View\Gui\Find Statue Turist.xbf
+View\Gui\Find Statue.xbf
+View\Gui\Forside1.xbf
+View\Gui\MaterialePage.xbf
+View\Gui\Opret skade.xbf
+View\Gui\OpretstatueUI.xbf

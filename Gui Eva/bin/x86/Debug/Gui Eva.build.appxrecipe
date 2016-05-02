@@ -393,6 +393,18 @@
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\View\Gui\Bileder\Eva Logo.png">
+      <PackagePath>View\Gui\Bileder\Eva Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\View\Gui\Bileder\Eva Logo2.0.png">
+      <PackagePath>View\Gui\Bileder\Eva Logo2.0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\View\Gui\Bileder\Statue_of_Liberty_7.jpg">
+      <PackagePath>View\Gui\Bileder\Statue_of_Liberty_7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\View\Gui\the_damaged_statue_of_st_dominic_photo_by_sally_ra_1215301302.JPG">
+      <PackagePath>View\Gui\the_damaged_statue_of_st_dominic_photo_by_sally_ra_1215301302.JPG</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

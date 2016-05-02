@@ -1,6 +1,4 @@
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\App.xbf
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Forside1.xbf
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\OpretstatueUI.xbf
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Gui Eva.xr.xml
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Gui Eva.exe
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Gui Eva.pdb
@@ -239,17 +237,9 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\System.Xml.XmlDocu
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\System.Xml.XmlSerializer.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\App.g.i.cs
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\App.g.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Forside1.g.i.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Forside1.g.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\OpretstatueUI.g.i.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\OpretstatueUI.g.cs
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\App.xaml
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Forside1.xaml
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\OpretstatueUI.xaml
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\App.xbf
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Forside1.xbf
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\OpretstatueUI.xbf
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Gui Eva.exe
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Gui Eva.pdb
@@ -427,8 +417,6 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\System.Xml.Re
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\System.Xml.XDocument.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\System.Xml.XmlDocument.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\System.Xml.XmlSerializer.dll
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Eva Logo.png
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Eva Logo2.0.png
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Assets\SplashScreen.scale-200.png
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png
@@ -437,15 +425,9 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Assets\Square
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Assets\StoreLogo.png
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Properties\Default.rd.xml
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Statue_of_Liberty_7.jpg
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Gui Eva.xr.xml
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\WinMetadata\Windows.winmd
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\resources.pri
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\MaterialePage.xbf
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\MaterialePage.g.i.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\MaterialePage.g.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\MaterialePage.xaml
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\MaterialePage.xbf
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Xaml.Interactions.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Xaml.Interactivity.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
@@ -453,13 +435,46 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Microsoft.Xaml.Int
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Microsoft.Xaml.Interactions.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Microsoft.Xaml.Interactivity.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Gui Eva.csprojResolveAssemblyReference.cache
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Adminstrative Funktioner.xbf
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Adminstrative Funktioner.g.i.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Adminstrative Funktioner.g.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Adminstrative Funktioner.xaml
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Adminstrative Funktioner.xbf
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Opret skade.xbf
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Opret skade.g.i.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Opret skade.g.cs
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Opret skade.xaml
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Opret skade.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Adminstrative Funktioner.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Forside1.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\MaterialePage.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Opret skade.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\OpretstatueUI.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\View\Gui\Bileder\Eva Logo.png
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\View\Gui\Bileder\Eva Logo2.0.png
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\View\Gui\Bileder\Statue_of_Liberty_7.jpg
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Adminstrative Funktioner.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Adminstrative Funktioner.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Forside1.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Forside1.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\MaterialePage.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\MaterialePage.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Opret skade.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Opret skade.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\OpretstatueUI.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\OpretstatueUI.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Adminstrative Funktioner.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Forside1.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\MaterialePage.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Opret skade.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\OpretstatueUI.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Adminstrative Funktioner.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Forside1.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\MaterialePage.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Opret skade.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\OpretstatueUI.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\View\Gui\Bileder\Eva Logo.png
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\View\Gui\Bileder\Eva Logo2.0.png
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\View\Gui\Bileder\Statue_of_Liberty_7.jpg
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\View\Gui\the_damaged_statue_of_st_dominic_photo_by_sally_ra_1215301302.JPG
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\View\Gui\the_damaged_statue_of_st_dominic_photo_by_sally_ra_1215301302.JPG
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Find Statue.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Find Statue Turist.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue Turist.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue Turist.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue Turist.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue Turist.xbf

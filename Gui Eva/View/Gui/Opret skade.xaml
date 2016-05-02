@@ -17,8 +17,39 @@
                 </Core:EventTriggerBehavior>
             </Interactivity:Interaction.Behaviors>
             <Button.Background>
-                <ImageBrush Stretch="Fill" ImageSource="Eva Logo2.0.png"/>
+                <ImageBrush Stretch="Fill" ImageSource="Bileder/Eva Logo2.0.png"/>
             </Button.Background>
+        </Button>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="61" Margin="206,114,0,0" TextWrapping="Wrap" Text="Skade ID" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="61" Margin="206,229,0,0" TextWrapping="Wrap" Text="Skadestyper" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="206,265,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Margin="206,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="61" Margin="206,346,0,0" TextWrapping="Wrap" Text="Behandlingsaktioner" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Margin="206,382,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="206,474,0,0" TextWrapping="Wrap" Text="Behandlingsfrekvens" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Margin="206,510,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Height="61" Margin="206,595,0,0" TextWrapping="Wrap" Text="Skadesudbredelse" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Margin="206,631,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Height="61" Margin="435,114,0,0" TextWrapping="Wrap" Text="Adresse" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBox x:Name="textBox_Copy5" HorizontalAlignment="Left" Margin="435,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Height="61" Margin="435,229,0,0" TextWrapping="Wrap" Text="Værdier" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBox x:Name="textBox_Copy6" HorizontalAlignment="Left" Margin="435,265,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Height="61" Margin="435,346,0,0" TextWrapping="Wrap" Text="Anbefalinger" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBox x:Name="textBox_Copy7" HorizontalAlignment="Left" Margin="435,382,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Margin="435,474,0,0" TextWrapping="Wrap" Text="Noter" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy8" HorizontalAlignment="Left" Margin="435,510,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="229" Height="179"/>
+        <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Margin="771,155,0,0" TextWrapping="Wrap" Text="Billede af skader" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
+        <Grid HorizontalAlignment="Left" Margin="711,200,0,0" Width="269" Height="298" VerticalAlignment="Top">
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="the_damaged_statue_of_st_dominic_photo_by_sally_ra_1215301302.JPG"/>
+            </Grid.Background>
+        </Grid>
+        <Button x:Name="button" Content="Opret skade" HorizontalAlignment="Left" Height="39" Margin="771,542,0,0" VerticalAlignment="Top" Width="140" d:LayoutOverrides="Width">
+            <Interactivity:Interaction.Behaviors>
+                <Core:EventTriggerBehavior EventName="Click">
+                    <Core:NavigateToPageAction TargetPage="Gui_Eva.Adminstrative_Funktioner"/>
+                </Core:EventTriggerBehavior>
+            </Interactivity:Interaction.Behaviors>
         </Button>
 
     </Grid>

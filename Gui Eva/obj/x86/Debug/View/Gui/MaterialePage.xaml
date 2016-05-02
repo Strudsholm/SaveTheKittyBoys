@@ -1,0 +1,69 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gui_Eva"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Interactivity="using:Microsoft.Xaml.Interactivity" xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+    x:Class="Gui_Eva.MaterialePage"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Margin="-1,-1,0,0" Background="#FF366BFF">
+            <CheckBox x:ConnectionId='1' x:Name="checkBox" Content="" Margin="350,195,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black"/>
+            <TextBlock x:ConnectionId='2' x:Name="textBlock" HorizontalAlignment="Left" Margin="172,200,0,0" TextWrapping="Wrap" Text="Granit" VerticalAlignment="Top" Height="60" Width="136" FontSize="26.667"/>
+            <TextBlock x:ConnectionId='3' x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="172,260,0,0" TextWrapping="Wrap" Text="Sandsten" VerticalAlignment="Top" Height="60" Width="136" FontSize="26.667"/>
+            <CheckBox x:ConnectionId='4' x:Name="checkBox_Copy" Content="" Margin="350,255,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black"/>
+            <TextBlock x:ConnectionId='5' x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="172,320,0,0" TextWrapping="Wrap" Text="Kalksten" VerticalAlignment="Top" Height="60" Width="136" FontSize="26.667"/>
+            <CheckBox x:ConnectionId='6' x:Name="checkBox_Copy1" Content="" Margin="350,315,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black"/>
+            <CheckBox x:ConnectionId='7' x:Name="checkBox_Copy2" Content="" Margin="350,373,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black"/>
+            <TextBlock x:ConnectionId='8' x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="172,378,0,0" TextWrapping="Wrap" Text="Marmor" VerticalAlignment="Top" Height="60" Width="136" FontSize="26.667"/>
+            <TextBlock x:ConnectionId='9' x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="172,435,0,0" TextWrapping="Wrap" Text="Andet" Width="136" FontSize="26.667" Height="61" VerticalAlignment="Top"/>
+            <CheckBox x:ConnectionId='10' x:Name="checkBox_Copy3" Content="" Margin="350,430,0,0" VerticalAlignment="Top" Width="68" BorderBrush="Black" Height="50" d:LayoutOverrides="VerticalAlignment"/>
+            <TextBlock x:ConnectionId='11' x:Name="textBlock1" HorizontalAlignment="Left" Height="80" Margin="172,115,0,0" TextWrapping="Wrap" Text="Sten" VerticalAlignment="Top" Width="195" FontSize="48"/>
+            <TextBlock x:ConnectionId='12' x:Name="textBlock_Copy4" Margin="564,200,0,0" TextWrapping="Wrap" Text="Bronze" VerticalAlignment="Top" Height="60" FontSize="26.667" HorizontalAlignment="Left" Width="137"/>
+            <CheckBox x:ConnectionId='13' x:Name="checkBox_Copy4" Content="" Margin="738,195,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" HorizontalAlignment="Left"/>
+            <TextBlock x:ConnectionId='14' x:Name="textBlock_Copy5" Margin="564,260,0,0" TextWrapping="Wrap" Text="Cortenstål" VerticalAlignment="Top" Height="60" FontSize="26.667" HorizontalAlignment="Left" Width="140"/>
+            <CheckBox x:ConnectionId='15' x:Name="checkBox_Copy5" Content="" Margin="738,255,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" HorizontalAlignment="Left"/>
+            <TextBlock x:ConnectionId='16' x:Name="textBlock_Copy6" Margin="564,320,0,0" TextWrapping="Wrap" Text="Bemalet stål" VerticalAlignment="Top" Height="60" FontSize="26.667" HorizontalAlignment="Left" Width="173"/>
+            <CheckBox x:ConnectionId='17' x:Name="checkBox_Copy6" Content="" Margin="738,315,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" HorizontalAlignment="Left"/>
+            <TextBlock x:ConnectionId='18' x:Name="textBlock_Copy7" Margin="564,378,0,0" TextWrapping="Wrap" Text="Aluminium" VerticalAlignment="Top" Height="60" FontSize="26.667" HorizontalAlignment="Left" Width="147"/>
+            <CheckBox x:ConnectionId='19' x:Name="checkBox_Copy7" Content="" Margin="738,373,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" HorizontalAlignment="Left"/>
+            <TextBlock x:ConnectionId='20' x:Name="textBlock_Copy8" Margin="564,435,0,0" TextWrapping="Wrap" Text="Jern" FontSize="26.667" HorizontalAlignment="Left" Width="149" Height="62" VerticalAlignment="Top"/>
+            <CheckBox x:ConnectionId='21' x:Name="checkBox_Copy8" Content="" Margin="738,430,0,0" VerticalAlignment="Top" Width="68" BorderBrush="Black" HorizontalAlignment="Left" Height="50" d:LayoutOverrides="VerticalAlignment"/>
+            <TextBlock x:ConnectionId='22' x:Name="textBlock_Copy9" Margin="564,497,0,0" TextWrapping="Wrap" Text="Andet" FontSize="26.667" Height="62" VerticalAlignment="Top" HorizontalAlignment="Left" Width="151"/>
+            <CheckBox x:ConnectionId='23' x:Name="checkBox_Copy9" Content="" Margin="738,492,0,0" VerticalAlignment="Top" Width="68" BorderBrush="Black" HorizontalAlignment="Left" Height="50"/>
+            <TextBlock x:ConnectionId='24' x:Name="textBlock1_Copy" Height="80" Margin="564,115,680,0" TextWrapping="Wrap" Text=" Metal" VerticalAlignment="Top" FontSize="48" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <TextBlock x:ConnectionId='25' x:Name="textBlock_Copy10" Margin="935,200,0,0" TextWrapping="Wrap" Text="Træ" VerticalAlignment="Top" Height="60" FontSize="26.667" HorizontalAlignment="Left" Width="137"/>
+            <CheckBox x:ConnectionId='26' x:Name="checkBox_Copy10" Content="" Margin="1109,195,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" HorizontalAlignment="Left"/>
+            <TextBlock x:ConnectionId='27' x:Name="textBlock_Copy11" Margin="935,265,0,0" TextWrapping="Wrap" Text="Tegl" VerticalAlignment="Top" Height="60" FontSize="26.667" HorizontalAlignment="Left" Width="140"/>
+            <CheckBox x:ConnectionId='28' x:Name="checkBox_Copy11" Content="" Margin="1109,268,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" HorizontalAlignment="Left"/>
+            <TextBlock x:ConnectionId='29' x:Name="textBlock_Copy12" Margin="935,320,0,0" TextWrapping="Wrap" Text="Beton" VerticalAlignment="Top" Height="60" FontSize="26.667" HorizontalAlignment="Left" Width="175"/>
+            <CheckBox x:ConnectionId='30' x:Name="checkBox_Copy12" Content="" Margin="1109,315,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" HorizontalAlignment="Left"/>
+            <TextBlock x:ConnectionId='31' x:Name="textBlock_Copy13" Margin="935,378,0,0" TextWrapping="Wrap" Text="Glasfiber" VerticalAlignment="Top" Height="60" FontSize="26.667" HorizontalAlignment="Left" Width="147"/>
+            <CheckBox x:ConnectionId='32' x:Name="checkBox_Copy13" Content="" Margin="1109,378,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" HorizontalAlignment="Left"/>
+            <TextBlock x:ConnectionId='33' x:Name="textBlock_Copy14" Margin="935,435,0,0" TextWrapping="Wrap" Text="Andet" FontSize="26.667" HorizontalAlignment="Left" Width="149" Height="64" VerticalAlignment="Top"/>
+            <CheckBox x:ConnectionId='34' x:Name="checkBox_Copy14" Content="" Margin="1109,430,0,0" VerticalAlignment="Top" Width="68" BorderBrush="Black" HorizontalAlignment="Left" Height="50" d:LayoutOverrides="VerticalAlignment"/>
+            <TextBlock x:ConnectionId='35' x:Name="textBlock1_Copy1" Height="80" Margin="935,115,0,0" TextWrapping="Wrap" Text="Andre" VerticalAlignment="Top" FontSize="48" HorizontalAlignment="Left" Width="198"/>
+            <Button x:ConnectionId='36' x:Name="button" Content="Gem Materiale" HorizontalAlignment="Left" Margin="564,581,0,0" VerticalAlignment="Top" Height="70" FontSize="26.667" Width="197">
+                <Interactivity:Interaction.Behaviors>
+                    <Core:EventTriggerBehavior EventName="Click">
+                        <Core:NavigateToPageAction TargetPage="Gui_Eva.Forside"/>
+                    </Core:EventTriggerBehavior>
+                </Interactivity:Interaction.Behaviors>
+            </Button>
+            <Button x:ConnectionId='37' x:Name="button1" Content="" HorizontalAlignment="Right" Height="145" VerticalAlignment="Bottom" Width="190">
+                <Interactivity:Interaction.Behaviors>
+                    <Core:EventTriggerBehavior EventName="Click">
+                        <Core:NavigateToPageAction TargetPage="Gui_Eva.Forside1"/>
+                    </Core:EventTriggerBehavior>
+                </Interactivity:Interaction.Behaviors>
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Bileder/Eva Logo2.0.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Page>
+

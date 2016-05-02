@@ -59,7 +59,7 @@
                     </Core:EventTriggerBehavior>
                 </Interactivity:Interaction.Behaviors>
                 <Button.Background>
-                    <ImageBrush Stretch="Fill" ImageSource="Eva Logo2.0.png"/>
+                    <ImageBrush Stretch="Fill" ImageSource="Bileder/Eva Logo2.0.png"/>
                 </Button.Background>
             </Button>
         </Grid>

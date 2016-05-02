@@ -28,14 +28,20 @@
             <TextBox x:Name="textBox_Copy5" Margin="565,210,0,0" TextWrapping="Wrap" Text="Casperscity" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="138"/>
             <TextBlock x:Name="textBlock_Copy" Margin="468,403,0,0" TextWrapping="Wrap" Text="Historie" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="235"/>
             <TextBox x:Name="textBox_Copy1" Margin="466,430,0,0" TextWrapping="Wrap" Text="Minion 4.0" FontSize="18.667" HorizontalAlignment="Left" Width="237" Height="183" VerticalAlignment="Top" Background="White"/>
-            <Button x:Name="button" Content="Opret Statue" HorizontalAlignment="Left" Margin="896,540,0,0" VerticalAlignment="Top" FontSize="18.667" Width="140" Height="39"/>
+            <Button x:Name="button" Content="Opret Statue" HorizontalAlignment="Left" Margin="896,540,0,0" VerticalAlignment="Top" FontSize="18.667" Width="140" Height="39">
+                <Interactivity:Interaction.Behaviors>
+                    <Core:EventTriggerBehavior EventName="Click">
+                        <Core:NavigateToPageAction TargetPage="Gui_Eva.Adminstrative_Funktioner"/>
+                    </Core:EventTriggerBehavior>
+                </Interactivity:Interaction.Behaviors>
+            </Button>
             <TextBlock x:Name="textBlock_Copy5" Margin="862,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" FontSize="18.667" HorizontalAlignment="Left" Width="148">
 				<Run Text="             "/>
 				<Run Text="Billede"/>
             </TextBlock>
             <Grid Height="292" Margin="822,199,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="271">
                 <Grid.Background>
-                    <ImageBrush Stretch="Fill" ImageSource="Statue_of_Liberty_7.jpg"/>
+                    <ImageBrush Stretch="Fill" ImageSource="Bileder/Statue_of_Liberty_7.jpg"/>
                 </Grid.Background>
             </Grid>
             <TextBox x:Name="textBox1" Margin="466,210,0,0" TextWrapping="Wrap" Text="4858" VerticalAlignment="Top" HorizontalAlignment="Left" Height="61" Width="40"/>
@@ -49,7 +55,7 @@
                     </Core:EventTriggerBehavior>
                 </Interactivity:Interaction.Behaviors>
                 <Button.Background>
-                    <ImageBrush Stretch="Fill" ImageSource="Eva Logo2.0.png"/>
+                    <ImageBrush Stretch="Fill" ImageSource="Bileder/Eva Logo2.0.png"/>
                 </Button.Background>
             </Button>
             <TextBox x:Name="textBox_Copy2" Margin="466,100,0,0" TextWrapping="Wrap" Text="58346428" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="138" d:LayoutOverrides="HorizontalAlignment"/>

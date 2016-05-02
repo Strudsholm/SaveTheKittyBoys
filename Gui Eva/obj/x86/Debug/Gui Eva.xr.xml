@@ -16,8 +16,8 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="RowDefinitions" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
     </RootType>
@@ -81,6 +81,8 @@
       <RootProperty Name="Stretch" />
       <RootProperty Name="ImageSource" />
     </RootType>
+    <RootType FullName="Gui_Eva.Find_Statue_Turist" />
+    <RootType FullName="Gui_Eva.FindStatue" />
     <RootType FullName="Gui_Eva.Adminstrative_Funktioner" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Gui_Eva.Forside1" />

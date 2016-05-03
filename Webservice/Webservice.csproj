@@ -162,6 +162,12 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\AndetsController.cs" />
+    <Compile Include="Controllers\MaterialersController.cs" />
+    <Compile Include="Controllers\MetalsController.cs" />
+    <Compile Include="Controllers\SkadersController.cs" />
+    <Compile Include="Controllers\StatuesController.cs" />
+    <Compile Include="Controllers\StensController.cs" />
     <Compile Include="Models\Andet.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />

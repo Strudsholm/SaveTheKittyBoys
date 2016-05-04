@@ -93,6 +93,12 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="View\Gui\Efter Søg Statue.xaml.cs">
+      <DependentUpon>Efter Søg Statue.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Gui\Efter Søg Statue Turist.xaml.cs">
+      <DependentUpon>Efter Søg Statue Turist.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Gui\Find Statue Turist.xaml.cs">
       <DependentUpon>Find Statue Turist.xaml</DependentUpon>
     </Compile>
@@ -144,6 +150,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="View\Gui\Efter Søg Statue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Gui\Efter Søg Statue Turist.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Gui\Find Statue Turist.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

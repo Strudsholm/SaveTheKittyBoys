@@ -51,12 +51,6 @@
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\entrypoint\Gui Eva.exe">
       <PackagePath>entrypoint\Gui Eva.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Eva Logo.png">
-      <PackagePath>Eva Logo.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Eva Logo2.0.png">
-      <PackagePath>Eva Logo2.0.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Gui Eva.exe">
       <PackagePath>Gui Eva.exe</PackagePath>
     </AppxPackagedFile>
@@ -92,9 +86,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Statue_of_Liberty_7.jpg">
-      <PackagePath>Statue_of_Liberty_7.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

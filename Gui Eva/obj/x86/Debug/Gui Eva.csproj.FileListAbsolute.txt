@@ -14,8 +14,6 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Assets\StoreL
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\ClrCompression.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\entrypoint\Gui Eva.exe
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Eva Logo.png
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Eva Logo2.0.png
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Gui Eva.exe
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Gui Eva.pdb
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Gui Eva.xr.xml
@@ -27,7 +25,6 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Vis
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Properties\Default.rd.xml
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\resources.pri
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Statue_of_Liberty_7.jpg
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\System.AppContext.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\System.Collections.Concurrent.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\System.Collections.dll
@@ -434,7 +431,6 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Microsoft.Xaml.Int
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Microsoft.Xaml.Interactions.dll
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Core\Microsoft.Xaml.Interactivity.dll
-C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\Gui Eva.csprojResolveAssemblyReference.cache
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Adminstrative Funktioner.xbf
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Forside1.xbf
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\MaterialePage.xbf
@@ -478,3 +474,13 @@ C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Stat
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue Turist.g.cs
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue Turist.xaml
 C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Find Statue Turist.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Efter Søg Statue.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\View\Gui\Efter Søg Statue Turist.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue Turist.g.i.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue Turist.g.cs
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue Turist.xaml
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.xbf
+C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue Turist.xbf

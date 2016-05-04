@@ -10,6 +10,7 @@ namespace Webservice
         public StatueDBContext()
             : base("name=StatueDBContext")
         {
+            base.Configuration.ProxyCreationEnabled = false;
         }
 
         public virtual DbSet<Andet> Andet { get; set; }

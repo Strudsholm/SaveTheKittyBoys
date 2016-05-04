@@ -58,6 +58,5 @@ C:\Users\Joachim\Desktop\Github\SaveTheKitties\Webservice\bin\System.Web.WebPage
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Webservice\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Webservice\bin\System.Web.WebPages.Razor.xml
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Webservice\bin\Antlr3.Runtime.pdb
-C:\Users\Joachim\Desktop\Github\SaveTheKitties\Webservice\obj\Debug\Webservice.csprojResolveAssemblyReference.cache
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Webservice\obj\Debug\Webservice.dll
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Webservice\obj\Debug\Webservice.pdb

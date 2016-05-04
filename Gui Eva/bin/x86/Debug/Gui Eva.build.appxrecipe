@@ -27,28 +27,32 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.ApplicationInsights\2.0.1\lib\uap10.0\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.ApplicationInsights.PersistenceChannel\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.ApplicationInsights.PersistenceChannel\1.2.3\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
       <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.ApplicationInsights.WindowsApps\1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.ApplicationInsights.WindowsApps\1.1.1\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Gui Eva.exe">
-      <PackagePath>Gui Eva.exe</PackagePath>
-=======
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
+      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.Net.Http\2.2.22\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.Net.Http\2.2.22\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
->>>>>>> ada150837a34ba7e79744f042473c4d7f51262a9
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
@@ -83,14 +87,16 @@
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.VisualBasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\System.AppContext.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Newtonsoft.Json\8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\runtime.any.System.Private.DataContractSerialization\4.1.0\lib\netcore50\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
->>>>>>> ada150837a34ba7e79744f042473c4d7f51262a9
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Collections\4.0.10\lib\netcore50\System.Collections.dll">
@@ -213,9 +219,6 @@
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.ObjectModel\4.0.10\lib\dotnet\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Private.DataContractSerialization\4.0.0\lib\netcore50\System.Private.DataContractSerialization.dll">
-      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Private.Networking\4.0.0\lib\netcore50\System.Private.Networking.dll">
       <PackagePath>System.Private.Networking.dll</PackagePath>
     </AppxPackagedFile>
@@ -276,13 +279,13 @@
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Runtime.Numerics\4.0.0\lib\netcore50\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Runtime.Serialization.Json\4.0.0\lib\netcore50\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Runtime.Serialization.Json\4.0.1\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Runtime.Serialization.Primitives\4.0.10\lib\dotnet\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Runtime.Serialization.Primitives\4.1.0\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Runtime.Serialization.Xml\4.0.10\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Runtime.Serialization.Xml\4.1.0\lib\netcore50\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Runtime.WindowsRuntime\4.0.10\lib\netcore50\System.Runtime.WindowsRuntime.dll">

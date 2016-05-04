@@ -97,6 +97,127 @@ namespace Gui_Eva.ViewModel
                 }
             }
         }
+        /// <summary>
+        /// Opretter en statue.
+        /// </summary>
+        /// <param name="nyStatue"></param>
+        /// <returns></returns>
+        public async Task CreateStatue(Statue nyStatue)
+        {
+
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                try
+                {
+
+                    var response = await client.PostAsJsonAsync("api/Statues", nyStatue);
+                    if (response.IsSuccessStatusCode)
+
+                    {
+
+                    }
+                }
+                catch (Exception)
+                {
+                    throw;
+
+                }
+            }
+
+        }
+        /// <summary>
+        /// Opretter en skade.
+        /// </summary>
+        /// <param name="nySkade"></param>
+        /// <returns></returns>
+        public async Task CreateSkade(Skader nySkade)
+        {
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                try
+                {
+                    var response = await client.PostAsJsonAsync("api/Skaders", nySkade);
+                    if (response.IsSuccessStatusCode)
+
+                    {
+
+                    }
+                }
+                catch (Exception)
+                {
+                    throw;
+
+                }
+            }
+        }
+        /// <summary>
+        /// Opdaterer en statue.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nyStatue"></param>
+        /// <returns></returns>
+        public async Task UpdateStatue(int id, Statue nyStatue)
+        {
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                try
+                {
+                    var response = await client.PutAsJsonAsync("api/Statues/" + id, nyStatue);
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                    }
+
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+            }
+        }
+        /// <summary>
+        /// Opdatere 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nySkader"></param>
+        /// <returns></returns>
+        public async Task UpdateSkade(int id, Skader nySkader)
+        {
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                try
+                {
+                    var response = await client.PutAsJsonAsync("api/Skaders/" + id, nySkader);
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                    }
+
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+            }
+        }
 
 
     }

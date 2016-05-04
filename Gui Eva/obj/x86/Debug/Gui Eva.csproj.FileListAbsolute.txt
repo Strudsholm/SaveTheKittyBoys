@@ -842,3 +842,20 @@ C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\qualifiers.
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\ProjectArchitectures.txt
 >>>>>>> ada150837a34ba7e79744f042473c4d7f51262a9
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.g.i.cs
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.g.cs
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue Turist.g.i.cs
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue Turist.g.cs
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.xaml
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue Turist.xaml
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.xbf
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue Turist.xbf
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\View\Gui\Efter Søg Statue.xbf
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\View\Gui\Efter Søg Statue Turist.xbf
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\System.Net.Http.Formatting.dll
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\Gui Eva.csproj.GenerateResource.Cache

@@ -128,7 +128,6 @@ C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\System.Xml.
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\bin\x86\Debug\System.Xml.XmlSerializer.dll
-C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\Gui Eva.csprojResolveAssemblyReference.cache
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\App.g.i.cs
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\App.g.cs
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\View\Gui\Efter Søg Statue.g.i.cs

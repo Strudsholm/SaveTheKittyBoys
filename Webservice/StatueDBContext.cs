@@ -1,3 +1,5 @@
+using System.Web.Http;
+
 namespace Webservice
 {
     using System;
@@ -11,6 +13,8 @@ namespace Webservice
             : base("name=StatueDBContext")
         {
             base.Configuration.ProxyCreationEnabled = false;
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            GlobalConfiguration.Configuration.Formatters.Remove(GlobalConfiguration.Configuration.Formatters.XmlFormatter);
         }
 
         public virtual DbSet<Andet> Andet { get; set; }

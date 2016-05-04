@@ -36,6 +36,10 @@
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.ApplicationInsights.WindowsApps\1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\Gui Eva.exe">
+      <PackagePath>Gui Eva.exe</PackagePath>
+=======
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -44,6 +48,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
+>>>>>>> ada150837a34ba7e79744f042473c4d7f51262a9
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
@@ -78,10 +83,14 @@
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.VisualBasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
+    <AppxPackagedFile Include="C:\Users\jacob\Desktop\Git\Repo\Gui Eva\Gui Eva\bin\x86\Debug\Core\System.AppContext.dll">
+=======
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
+>>>>>>> ada150837a34ba7e79744f042473c4d7f51262a9
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joachim\.nuget\packages\System.Collections\4.0.10\lib\netcore50\System.Collections.dll">

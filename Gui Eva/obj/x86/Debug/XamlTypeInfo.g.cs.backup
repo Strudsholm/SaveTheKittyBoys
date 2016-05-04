@@ -132,7 +132,11 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
 
         private void InitTypeTables()
         {
+<<<<<<< HEAD
             _typeNameTable = new string[18];
+=======
+            _typeNameTable = new string[20];
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
             _typeNameTable[0] = "Microsoft.Xaml.Interactivity.Interaction";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
@@ -142,6 +146,7 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeNameTable[6] = "Microsoft.Xaml.Interactivity.ActionCollection";
             _typeNameTable[7] = "String";
             _typeNameTable[8] = "Microsoft.Xaml.Interactions.Core.NavigateToPageAction";
+<<<<<<< HEAD
             _typeNameTable[9] = "Gui_Eva.Find_Statue_Turist";
             _typeNameTable[10] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[11] = "Windows.UI.Xaml.Controls.UserControl";
@@ -153,6 +158,21 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeNameTable[17] = "Gui_Eva.Forside";
 
             _typeTable = new global::System.Type[18];
+=======
+            _typeNameTable[9] = "Gui_Eva.Efter_Søg_Statue";
+            _typeNameTable[10] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[11] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[12] = "Gui_Eva.Efter_Søg_Statue_Turist";
+            _typeNameTable[13] = "Gui_Eva.Find_Statue_Turist";
+            _typeNameTable[14] = "Gui_Eva.FindStatue";
+            _typeNameTable[15] = "Gui_Eva.Adminstrative_Funktioner";
+            _typeNameTable[16] = "Gui_Eva.Forside1";
+            _typeNameTable[17] = "Gui_Eva.MaterialePage";
+            _typeNameTable[18] = "Gui_Eva.Opret_skade";
+            _typeNameTable[19] = "Gui_Eva.Forside";
+
+            _typeTable = new global::System.Type[20];
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
             _typeTable[0] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
@@ -162,6 +182,7 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeTable[6] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
             _typeTable[7] = typeof(global::System.String);
             _typeTable[8] = typeof(global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction);
+<<<<<<< HEAD
             _typeTable[9] = typeof(global::Gui_Eva.Find_Statue_Turist);
             _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -171,6 +192,19 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeTable[15] = typeof(global::Gui_Eva.MaterialePage);
             _typeTable[16] = typeof(global::Gui_Eva.Opret_skade);
             _typeTable[17] = typeof(global::Gui_Eva.Forside);
+=======
+            _typeTable[9] = typeof(global::Gui_Eva.Efter_Søg_Statue);
+            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[12] = typeof(global::Gui_Eva.Efter_Søg_Statue_Turist);
+            _typeTable[13] = typeof(global::Gui_Eva.Find_Statue_Turist);
+            _typeTable[14] = typeof(global::Gui_Eva.FindStatue);
+            _typeTable[15] = typeof(global::Gui_Eva.Adminstrative_Funktioner);
+            _typeTable[16] = typeof(global::Gui_Eva.Forside1);
+            _typeTable[17] = typeof(global::Gui_Eva.MaterialePage);
+            _typeTable[18] = typeof(global::Gui_Eva.Opret_skade);
+            _typeTable[19] = typeof(global::Gui_Eva.Forside);
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -209,6 +243,7 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
         private object Activate_5_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
         private object Activate_6_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
         private object Activate_8_NavigateToPageAction() { return new global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction(); }
+<<<<<<< HEAD
         private object Activate_9_Find_Statue_Turist() { return new global::Gui_Eva.Find_Statue_Turist(); }
         private object Activate_12_FindStatue() { return new global::Gui_Eva.FindStatue(); }
         private object Activate_13_Adminstrative_Funktioner() { return new global::Gui_Eva.Adminstrative_Funktioner(); }
@@ -216,6 +251,17 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
         private object Activate_15_MaterialePage() { return new global::Gui_Eva.MaterialePage(); }
         private object Activate_16_Opret_skade() { return new global::Gui_Eva.Opret_skade(); }
         private object Activate_17_Forside() { return new global::Gui_Eva.Forside(); }
+=======
+        private object Activate_9_Efter_Søg_Statue() { return new global::Gui_Eva.Efter_Søg_Statue(); }
+        private object Activate_12_Efter_Søg_Statue_Turist() { return new global::Gui_Eva.Efter_Søg_Statue_Turist(); }
+        private object Activate_13_Find_Statue_Turist() { return new global::Gui_Eva.Find_Statue_Turist(); }
+        private object Activate_14_FindStatue() { return new global::Gui_Eva.FindStatue(); }
+        private object Activate_15_Adminstrative_Funktioner() { return new global::Gui_Eva.Adminstrative_Funktioner(); }
+        private object Activate_16_Forside1() { return new global::Gui_Eva.Forside1(); }
+        private object Activate_17_MaterialePage() { return new global::Gui_Eva.MaterialePage(); }
+        private object Activate_18_Opret_skade() { return new global::Gui_Eva.Opret_skade(); }
+        private object Activate_19_Forside() { return new global::Gui_Eva.Forside(); }
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
         private void VectorAdd_2_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
@@ -294,9 +340,15 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 9:   //  Gui_Eva.Find_Statue_Turist
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_9_Find_Statue_Turist;
+=======
+            case 9:   //  Gui_Eva.Efter_Søg_Statue
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_Efter_Søg_Statue;
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -309,44 +361,94 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
+<<<<<<< HEAD
             case 12:   //  Gui_Eva.FindStatue
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_12_FindStatue;
+=======
+            case 12:   //  Gui_Eva.Efter_Søg_Statue_Turist
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_Efter_Søg_Statue_Turist;
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 13:   //  Gui_Eva.Adminstrative_Funktioner
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_13_Adminstrative_Funktioner;
+=======
+            case 13:   //  Gui_Eva.Find_Statue_Turist
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_Find_Statue_Turist;
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 14:   //  Gui_Eva.Forside1
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_14_Forside1;
+=======
+            case 14:   //  Gui_Eva.FindStatue
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_FindStatue;
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 15:   //  Gui_Eva.MaterialePage
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_15_MaterialePage;
+=======
+            case 15:   //  Gui_Eva.Adminstrative_Funktioner
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_Adminstrative_Funktioner;
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 16:   //  Gui_Eva.Opret_skade
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_16_Opret_skade;
+=======
+            case 16:   //  Gui_Eva.Forside1
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_16_Forside1;
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 17:   //  Gui_Eva.Forside
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_17_Forside;
+=======
+            case 17:   //  Gui_Eva.MaterialePage
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_17_MaterialePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 18:   //  Gui_Eva.Opret_skade
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_18_Opret_skade;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 19:   //  Gui_Eva.Forside
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_19_Forside;
+>>>>>>> 6cadd158fc9c56ccea21e34f1d464bbff65ab070
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

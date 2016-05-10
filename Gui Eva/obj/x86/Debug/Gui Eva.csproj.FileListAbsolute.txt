@@ -241,3 +241,4 @@ C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\qualifiers.
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Joachim\Desktop\Github\SaveTheKitties\Gui Eva\obj\x86\Debug\Gui Eva.csprojResolveAssemblyReference.cache

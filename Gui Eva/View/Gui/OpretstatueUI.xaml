@@ -5,8 +5,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Interactivity="using:Microsoft.Xaml.Interactivity" xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:ViewModel="using:Gui_Eva.ViewModel"
     x:Class="Gui_Eva.Forside"
     mc:Ignorable="d">
+
+    <Page.DataContext>
+        <ViewModel:OpretStatueVM/>
+    </Page.DataContext>
 
     <Grid Background="#FF366BFF">
         <Grid.RowDefinitions>
@@ -16,18 +21,18 @@
         </Grid.RowDefinitions>
 
         <Grid Height="901" VerticalAlignment="Top" Margin="40,47,0,0" d:LayoutOverrides="LeftPosition, RightPosition" Grid.RowSpan="2">
-            <TextBox x:Name="textBox" Margin="206,100,0,0" TextWrapping="Wrap" Text="Minion 4.0" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="229"/>
+            <TextBox x:Name="textBox" Margin="206,100,0,0" TextWrapping="Wrap" Text="{Binding NyStatue.Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="229"/>
             <TextBlock x:Name="textBlock" Margin="206,73,0,0" TextWrapping="Wrap" Text="Navn på statuen" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="169"/>
             <TextBlock x:Name="textBlock_Copy4" Margin="206,183,0,0" TextWrapping="Wrap" Text="Adresse" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="169"/>
-            <TextBox x:Name="textBox_Copy" Margin="206,210,0,0" TextWrapping="Wrap" Text="Minion 4.0" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="229" RenderTransformOrigin="0.422,2.464"/>
+            <TextBox x:Name="textBox_Copy" Margin="206,210,0,0" TextWrapping="Wrap" Text="{Binding NyStatue.Location, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="229" RenderTransformOrigin="0.422,2.464"/>
             <TextBlock x:Name="textBlock_Copy1" Margin="206,288,0,0" TextWrapping="Wrap" Text="Type" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="169"/>
             <TextBlock x:Name="textBlock_Copy3" Margin="206,403,0,0" TextWrapping="Wrap" Text="Noter" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="169"/>
-            <TextBox x:Name="textBox_Copy4" Margin="206,430,0,0" TextWrapping="Wrap" Text="Minion 4.0" FontSize="18.667" HorizontalAlignment="Left" Width="229" RenderTransformOrigin="0.422,2.464" Height="183" VerticalAlignment="Top"/>
+            <TextBox x:Name="textBox_Copy4" Margin="206,430,0,0" TextWrapping="Wrap" Text="{Binding NyStatue.Note, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="18.667" HorizontalAlignment="Left" Width="229" RenderTransformOrigin="0.422,2.464" Height="183" VerticalAlignment="Top"/>
             <TextBlock x:Name="textBlock_Copy2" Margin="466,178,492,0" TextWrapping="Wrap" Text="Postnr" VerticalAlignment="Top" Height="27" FontSize="18.667" d:LayoutOverrides="LeftPosition, RightPosition" RenderTransformOrigin="1.523,0.228"/>
             <TextBlock x:Name="textBlock_Copy8" Margin="567,178,0,0" TextWrapping="Wrap" Text="By" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="138"/>
             <TextBox x:Name="textBox_Copy5" Margin="565,210,0,0" TextWrapping="Wrap" Text="Casperscity" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="138"/>
             <TextBlock x:Name="textBlock_Copy" Margin="468,403,0,0" TextWrapping="Wrap" Text="Historie" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="235"/>
-            <TextBox x:Name="textBox_Copy1" Margin="466,430,0,0" TextWrapping="Wrap" Text="Minion 4.0" FontSize="18.667" HorizontalAlignment="Left" Width="237" Height="183" VerticalAlignment="Top" Background="White"/>
+            <TextBox x:Name="textBox_Copy1" Margin="466,430,0,0" TextWrapping="Wrap" Text="{Binding NyStatue.History, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="18.667" HorizontalAlignment="Left" Width="237" Height="183" VerticalAlignment="Top" Background="White"/>
             <Button x:Name="button" Content="Opret Statue" HorizontalAlignment="Left" Margin="896,540,0,0" VerticalAlignment="Top" FontSize="18.667" Width="140" Height="39">
                 <Interactivity:Interaction.Behaviors>
                     <Core:EventTriggerBehavior EventName="Click">
@@ -45,8 +50,8 @@
                 </Grid.Background>
             </Grid>
             <TextBox x:Name="textBox1" Margin="466,210,0,0" TextWrapping="Wrap" Text="4858" VerticalAlignment="Top" HorizontalAlignment="Left" Height="61" Width="40"/>
-            <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="206,320,0,0" Height="46" Width="229"/>
-            <ComboBox x:Name="comboBox_Copy1" HorizontalAlignment="Left" Margin="466,320,0,0" Height="46" Width="229"/>
+            <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="206,320,0,0" Height="46" Width="229" ItemsSource="{Binding StatueType}"/>
+            <ComboBox x:Name="comboBox_Copy1" HorizontalAlignment="Left" Margin="466,320,0,0" Height="46" Width="229" ItemsSource="{Binding Placerings, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
             <TextBlock x:Name="textBlock_Copy6" Margin="466,288,0,0" TextWrapping="Wrap" Text="Placering" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="169"/>
             <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="1312,602,0,0" VerticalAlignment="Top" Height="145" Width="190">
                 <Interactivity:Interaction.Behaviors>
@@ -58,8 +63,15 @@
                     <ImageBrush Stretch="Fill" ImageSource="Bileder/Eva Logo2.0.png"/>
                 </Button.Background>
             </Button>
-            <TextBox x:Name="textBox_Copy2" Margin="466,100,0,0" TextWrapping="Wrap" Text="58346428" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="138" d:LayoutOverrides="HorizontalAlignment"/>
+            <TextBox x:Name="textBox_Copy2" Margin="466,100,0,0" TextWrapping="Wrap" Text="{Binding NyStatue.Statue_ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Height="61" FontSize="18.667" HorizontalAlignment="Left" Width="138" d:LayoutOverrides="HorizontalAlignment"/>
             <TextBlock x:Name="textBlock_Copy7" Margin="468,73,0,0" TextWrapping="Wrap" Text="ID Nummer" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="169"/>
+            <Button x:Name="button3" Content="Button" HorizontalAlignment="Right" Height="44" Margin="0,271,107,0" VerticalAlignment="Top" Width="44">
+                <Interactivity:Interaction.Behaviors>
+                    <Core:EventTriggerBehavior EventName="Click">
+                        <Core:InvokeCommandAction Command="{Binding OpretCommand}"/>
+                    </Core:EventTriggerBehavior>
+                </Interactivity:Interaction.Behaviors>
+            </Button>
         </Grid>
         <Button x:Name="button1" Content="Materiale" Height="79" VerticalAlignment="Top" Width="193">
             <Interactivity:Interaction.Behaviors>

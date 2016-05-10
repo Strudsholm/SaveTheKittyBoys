@@ -8,6 +8,8 @@ namespace Gui_Eva.Model
 {
     public class Sten
     {
+        public string Marmor { get; set; }
+
         public Sten()
         {
             Materialer = new HashSet<Materialer>();

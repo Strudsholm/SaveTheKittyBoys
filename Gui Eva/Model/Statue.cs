@@ -34,7 +34,7 @@ namespace Gui_Eva.Model
        
         public string Note { get; set; }
 
-       
+        public string Materiale { get; set; }
         public virtual ICollection<Materialer> Materialer { get; set; }
 
      

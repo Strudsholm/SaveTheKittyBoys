@@ -132,7 +132,7 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[20];
+            _typeNameTable = new string[31];
             _typeNameTable[0] = "Microsoft.Xaml.Interactivity.Interaction";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
@@ -150,11 +150,22 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeNameTable[14] = "Gui_Eva.FindStatue";
             _typeNameTable[15] = "Gui_Eva.Adminstrative_Funktioner";
             _typeNameTable[16] = "Gui_Eva.Forside1";
-            _typeNameTable[17] = "Gui_Eva.MaterialePage";
-            _typeNameTable[18] = "Gui_Eva.Opret_skade";
-            _typeNameTable[19] = "Gui_Eva.Forside";
+            _typeNameTable[17] = "Gui_Eva.ViewModel.OpretStatueVM";
+            _typeNameTable[18] = "Gui_Eva.Model.Statue";
+            _typeNameTable[19] = "System.Collections.Generic.List`1<Gui_Eva.Model.Placering>";
+            _typeNameTable[20] = "Gui_Eva.Model.Placering";
+            _typeNameTable[21] = "System.Collections.Generic.List`1<Gui_Eva.Model.Type>";
+            _typeNameTable[22] = "Gui_Eva.Model.Type";
+            _typeNameTable[23] = "Gui_Eva.ViewModel.Facade";
+            _typeNameTable[24] = "Eventmaker.Common.RelayCommand";
+            _typeNameTable[25] = "Gui_Eva.MaterialePage";
+            _typeNameTable[26] = "Gui_Eva.Opret_skade";
+            _typeNameTable[27] = "Microsoft.Xaml.Interactions.Core.InvokeCommandAction";
+            _typeNameTable[28] = "System.Windows.Input.ICommand";
+            _typeNameTable[29] = "Windows.UI.Xaml.Data.IValueConverter";
+            _typeNameTable[30] = "Gui_Eva.Forside";
 
-            _typeTable = new global::System.Type[20];
+            _typeTable = new global::System.Type[31];
             _typeTable[0] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
@@ -172,9 +183,20 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeTable[14] = typeof(global::Gui_Eva.FindStatue);
             _typeTable[15] = typeof(global::Gui_Eva.Adminstrative_Funktioner);
             _typeTable[16] = typeof(global::Gui_Eva.Forside1);
-            _typeTable[17] = typeof(global::Gui_Eva.MaterialePage);
-            _typeTable[18] = typeof(global::Gui_Eva.Opret_skade);
-            _typeTable[19] = typeof(global::Gui_Eva.Forside);
+            _typeTable[17] = typeof(global::Gui_Eva.ViewModel.OpretStatueVM);
+            _typeTable[18] = typeof(global::Gui_Eva.Model.Statue);
+            _typeTable[19] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.Placering>);
+            _typeTable[20] = typeof(global::Gui_Eva.Model.Placering);
+            _typeTable[21] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.Type>);
+            _typeTable[22] = typeof(global::Gui_Eva.Model.Type);
+            _typeTable[23] = typeof(global::Gui_Eva.ViewModel.Facade);
+            _typeTable[24] = typeof(global::Eventmaker.Common.RelayCommand);
+            _typeTable[25] = typeof(global::Gui_Eva.MaterialePage);
+            _typeTable[26] = typeof(global::Gui_Eva.Opret_skade);
+            _typeTable[27] = typeof(global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction);
+            _typeTable[28] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[29] = typeof(global::Windows.UI.Xaml.Data.IValueConverter);
+            _typeTable[30] = typeof(global::Gui_Eva.Forside);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -219,9 +241,15 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
         private object Activate_14_FindStatue() { return new global::Gui_Eva.FindStatue(); }
         private object Activate_15_Adminstrative_Funktioner() { return new global::Gui_Eva.Adminstrative_Funktioner(); }
         private object Activate_16_Forside1() { return new global::Gui_Eva.Forside1(); }
-        private object Activate_17_MaterialePage() { return new global::Gui_Eva.MaterialePage(); }
-        private object Activate_18_Opret_skade() { return new global::Gui_Eva.Opret_skade(); }
-        private object Activate_19_Forside() { return new global::Gui_Eva.Forside(); }
+        private object Activate_17_OpretStatueVM() { return new global::Gui_Eva.ViewModel.OpretStatueVM(); }
+        private object Activate_18_Statue() { return new global::Gui_Eva.Model.Statue(); }
+        private object Activate_19_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.Placering>(); }
+        private object Activate_21_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.Type>(); }
+        private object Activate_23_Facade() { return new global::Gui_Eva.ViewModel.Facade(); }
+        private object Activate_25_MaterialePage() { return new global::Gui_Eva.MaterialePage(); }
+        private object Activate_26_Opret_skade() { return new global::Gui_Eva.Opret_skade(); }
+        private object Activate_27_InvokeCommandAction() { return new global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction(); }
+        private object Activate_30_Forside() { return new global::Gui_Eva.Forside(); }
         private void VectorAdd_2_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
@@ -232,6 +260,18 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_19_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.Placering>)instance;
+            var newItem = (global::Gui_Eva.Model.Placering)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_21_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.Type>)instance;
+            var newItem = (global::Gui_Eva.Model.Type)item;
             collection.Add(newItem);
         }
 
@@ -350,23 +390,108 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 17:   //  Gui_Eva.MaterialePage
-                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_MaterialePage;
+            case 17:   //  Gui_Eva.ViewModel.OpretStatueVM
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_17_OpretStatueVM;
+                userType.AddMemberName("NyStatue");
+                userType.AddMemberName("Placerings");
+                userType.AddMemberName("StatueType");
+                userType.AddMemberName("facade");
+                userType.AddMemberName("OpretCommand");
+                userType.AddMemberName("Placeringbind");
+                userType.AddMemberName("Typebind");
+                userType.AddMemberName("MaterialeBind");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 18:   //  Gui_Eva.Opret_skade
-                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_Opret_skade;
+            case 18:   //  Gui_Eva.Model.Statue
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 19:   //  Gui_Eva.Forside
+            case 19:   //  System.Collections.Generic.List`1<Gui_Eva.Model.Placering>
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.CollectionAdd = VectorAdd_19_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 20:   //  Gui_Eva.Model.Placering
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("placering");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 21:   //  System.Collections.Generic.List`1<Gui_Eva.Model.Type>
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.CollectionAdd = VectorAdd_21_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 22:   //  Gui_Eva.Model.Type
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("type");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 23:   //  Gui_Eva.ViewModel.Facade
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 24:   //  Eventmaker.Common.RelayCommand
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 25:   //  Gui_Eva.MaterialePage
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_Forside;
+                userType.Activator = Activate_25_MaterialePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 26:   //  Gui_Eva.Opret_skade
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_26_Opret_skade;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 27:   //  Microsoft.Xaml.Interactions.Core.InvokeCommandAction
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_27_InvokeCommandAction;
+                userType.AddMemberName("Command");
+                userType.AddMemberName("CommandParameter");
+                userType.AddMemberName("InputConverter");
+                userType.AddMemberName("InputConverterParameter");
+                userType.AddMemberName("InputConverterLanguage");
+                xamlType = userType;
+                break;
+
+            case 28:   //  System.Windows.Input.ICommand
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 29:   //  Windows.UI.Xaml.Data.IValueConverter
+                xamlType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 30:   //  Gui_Eva.Forside
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_30_Forside;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -433,6 +558,156 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
             that.Parameter = (global::System.Object)Value;
         }
+        private object get_7_OpretStatueVM_NyStatue(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            return that.NyStatue;
+        }
+        private void set_7_OpretStatueVM_NyStatue(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            that.NyStatue = (global::Gui_Eva.Model.Statue)Value;
+        }
+        private object get_8_OpretStatueVM_Placerings(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            return that.Placerings;
+        }
+        private void set_8_OpretStatueVM_Placerings(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            that.Placerings = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Placering>)Value;
+        }
+        private object get_9_Placering_placering(object instance)
+        {
+            var that = (global::Gui_Eva.Model.Placering)instance;
+            return that.placering;
+        }
+        private void set_9_Placering_placering(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.Placering)instance;
+            that.placering = (global::System.String)Value;
+        }
+        private object get_10_OpretStatueVM_StatueType(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            return that.StatueType;
+        }
+        private void set_10_OpretStatueVM_StatueType(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            that.StatueType = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Type>)Value;
+        }
+        private object get_11_Type_type(object instance)
+        {
+            var that = (global::Gui_Eva.Model.Type)instance;
+            return that.type;
+        }
+        private void set_11_Type_type(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.Type)instance;
+            that.type = (global::System.String)Value;
+        }
+        private object get_12_OpretStatueVM_facade(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            return that.facade;
+        }
+        private void set_12_OpretStatueVM_facade(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            that.facade = (global::Gui_Eva.ViewModel.Facade)Value;
+        }
+        private object get_13_OpretStatueVM_OpretCommand(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            return that.OpretCommand;
+        }
+        private void set_13_OpretStatueVM_OpretCommand(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            that.OpretCommand = (global::Eventmaker.Common.RelayCommand)Value;
+        }
+        private object get_14_OpretStatueVM_Placeringbind(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            return that.Placeringbind;
+        }
+        private void set_14_OpretStatueVM_Placeringbind(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            that.Placeringbind = (global::System.String)Value;
+        }
+        private object get_15_OpretStatueVM_Typebind(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            return that.Typebind;
+        }
+        private void set_15_OpretStatueVM_Typebind(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            that.Typebind = (global::System.String)Value;
+        }
+        private object get_16_OpretStatueVM_MaterialeBind(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            return that.MaterialeBind;
+        }
+        private void set_16_OpretStatueVM_MaterialeBind(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
+            that.MaterialeBind = (global::System.String)Value;
+        }
+        private object get_17_InvokeCommandAction_Command(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.Command;
+        }
+        private void set_17_InvokeCommandAction_Command(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.Command = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_18_InvokeCommandAction_CommandParameter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.CommandParameter;
+        }
+        private void set_18_InvokeCommandAction_CommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.CommandParameter = (global::System.Object)Value;
+        }
+        private object get_19_InvokeCommandAction_InputConverter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverter;
+        }
+        private void set_19_InvokeCommandAction_InputConverter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverter = (global::Windows.UI.Xaml.Data.IValueConverter)Value;
+        }
+        private object get_20_InvokeCommandAction_InputConverterParameter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverterParameter;
+        }
+        private void set_20_InvokeCommandAction_InputConverterParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverterParameter = (global::System.Object)Value;
+        }
+        private object get_21_InvokeCommandAction_InputConverterLanguage(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverterLanguage;
+        }
+        private void set_21_InvokeCommandAction_InputConverterLanguage(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverterLanguage = (global::System.String)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -489,6 +764,101 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_6_NavigateToPageAction_Parameter;
                 xamlMember.Setter = set_6_NavigateToPageAction_Parameter;
+                break;
+            case "Gui_Eva.ViewModel.OpretStatueVM.NyStatue":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "NyStatue", "Gui_Eva.Model.Statue");
+                xamlMember.Getter = get_7_OpretStatueVM_NyStatue;
+                xamlMember.Setter = set_7_OpretStatueVM_NyStatue;
+                break;
+            case "Gui_Eva.ViewModel.OpretStatueVM.Placerings":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Placerings", "System.Collections.Generic.List`1<Gui_Eva.Model.Placering>");
+                xamlMember.Getter = get_8_OpretStatueVM_Placerings;
+                xamlMember.Setter = set_8_OpretStatueVM_Placerings;
+                break;
+            case "Gui_Eva.Model.Placering.placering":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.Placering");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "placering", "String");
+                xamlMember.Getter = get_9_Placering_placering;
+                xamlMember.Setter = set_9_Placering_placering;
+                break;
+            case "Gui_Eva.ViewModel.OpretStatueVM.StatueType":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "StatueType", "System.Collections.Generic.List`1<Gui_Eva.Model.Type>");
+                xamlMember.Getter = get_10_OpretStatueVM_StatueType;
+                xamlMember.Setter = set_10_OpretStatueVM_StatueType;
+                break;
+            case "Gui_Eva.Model.Type.type":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.Type");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "type", "String");
+                xamlMember.Getter = get_11_Type_type;
+                xamlMember.Setter = set_11_Type_type;
+                break;
+            case "Gui_Eva.ViewModel.OpretStatueVM.facade":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "facade", "Gui_Eva.ViewModel.Facade");
+                xamlMember.Getter = get_12_OpretStatueVM_facade;
+                xamlMember.Setter = set_12_OpretStatueVM_facade;
+                break;
+            case "Gui_Eva.ViewModel.OpretStatueVM.OpretCommand":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "OpretCommand", "Eventmaker.Common.RelayCommand");
+                xamlMember.Getter = get_13_OpretStatueVM_OpretCommand;
+                xamlMember.Setter = set_13_OpretStatueVM_OpretCommand;
+                break;
+            case "Gui_Eva.ViewModel.OpretStatueVM.Placeringbind":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Placeringbind", "String");
+                xamlMember.Getter = get_14_OpretStatueVM_Placeringbind;
+                xamlMember.Setter = set_14_OpretStatueVM_Placeringbind;
+                break;
+            case "Gui_Eva.ViewModel.OpretStatueVM.Typebind":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Typebind", "String");
+                xamlMember.Getter = get_15_OpretStatueVM_Typebind;
+                xamlMember.Setter = set_15_OpretStatueVM_Typebind;
+                break;
+            case "Gui_Eva.ViewModel.OpretStatueVM.MaterialeBind":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "MaterialeBind", "String");
+                xamlMember.Getter = get_16_OpretStatueVM_MaterialeBind;
+                xamlMember.Setter = set_16_OpretStatueVM_MaterialeBind;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.Command":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_InvokeCommandAction_Command;
+                xamlMember.Setter = set_17_InvokeCommandAction_Command;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.CommandParameter":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_InvokeCommandAction_CommandParameter;
+                xamlMember.Setter = set_18_InvokeCommandAction_CommandParameter;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverter":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "InputConverter", "Windows.UI.Xaml.Data.IValueConverter");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_InvokeCommandAction_InputConverter;
+                xamlMember.Setter = set_19_InvokeCommandAction_InputConverter;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverterParameter":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "InputConverterParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_20_InvokeCommandAction_InputConverterParameter;
+                xamlMember.Setter = set_20_InvokeCommandAction_InputConverterParameter;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverterLanguage":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "InputConverterLanguage", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_21_InvokeCommandAction_InputConverterLanguage;
+                xamlMember.Setter = set_21_InvokeCommandAction_InputConverterLanguage;
                 break;
             }
             return xamlMember;

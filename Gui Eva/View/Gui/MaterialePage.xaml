@@ -5,12 +5,17 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Interactivity="using:Microsoft.Xaml.Interactivity" xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:ViewModel="using:Gui_Eva.ViewModel"
     x:Class="Gui_Eva.MaterialePage"
     mc:Ignorable="d">
 
+    <Page.DataContext>
+        <ViewModel:OpretStatueVM/>
+    </Page.DataContext>
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid Margin="-1,-1,0,0" Background="#FF366BFF">
-            <CheckBox x:Name="checkBox" Content="" Margin="350,195,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black"/>
+            <CheckBox x:Name="checkBox" Margin="350,195,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black" Content=""/>
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="172,200,0,0" TextWrapping="Wrap" Text="Granit" VerticalAlignment="Top" Height="60" Width="136" FontSize="26.667"/>
             <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="172,260,0,0" TextWrapping="Wrap" Text="Sandsten" VerticalAlignment="Top" Height="60" Width="136" FontSize="26.667"/>
             <CheckBox x:Name="checkBox_Copy" Content="" Margin="350,255,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderBrush="Black"/>

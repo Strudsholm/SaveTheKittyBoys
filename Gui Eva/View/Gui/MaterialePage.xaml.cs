@@ -26,5 +26,7 @@ namespace Gui_Eva
         {
             this.InitializeComponent();
         }
+
+       
     }
 }

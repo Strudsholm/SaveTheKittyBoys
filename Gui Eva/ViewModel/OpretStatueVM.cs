@@ -12,15 +12,21 @@ namespace Gui_Eva.ViewModel
     public class OpretStatueVM
     {
         public Statue NyStatue { get; set; }
-        public List<Placering> Placerings { get; set; }
-        public List<Type> StatueType    { get; set; }
+        public List<String> Placerings { get; set; }
+        public List<String> StatueType    { get; set; }
         public Facade facade { get; set; }
 
         public RelayCommand OpretCommand { get; set; }
-        
+
+        public String NameBind { get; set; }
+        public int StatueIDBind { get; set; }
+        public string LocationBind { get; set; }
         public string Placeringbind { get; set; }
         public string Typebind { get; set; }
-        public string MaterialeBind { get; set; }
+        public string NoteBind { get; set; }
+        public string HistoryBind { get; set; }
+        public int statueindex { get; set; }
+        public int placeringsindex { get; set; }
         //public Sten StenBind { get; set; }
         //public Metal MetalBind { get; set; }
         //public Andet AndetBind { get; set; }
@@ -28,14 +34,15 @@ namespace Gui_Eva.ViewModel
         public OpretStatueVM()
         {
             facade = new Facade();
-            Placerings = new List<Placering>();
-            Placerings.Add(new Placering("Facade"));
-            Placerings.Add(new Placering("Building"));
-            Placerings.Add(new Placering("Ground"));
+            NyStatue = new Statue();
+            Placerings = new List<String>();
+            Placerings.Add(("Facade"));
+            Placerings.Add(("Building"));
+            Placerings.Add(("Ground"));
 
-            StatueType = new List<Type>();
-            StatueType.Add(new Type("Hovede"));
-            StatueType.Add(new Type("Ikke hovede"));
+            StatueType = new List<String>();
+            StatueType.Add(("Hovede"));
+            StatueType.Add(("Ikke hovede"));
 
             OpretCommand = new RelayCommand(OpretStatue);
 
@@ -46,10 +53,14 @@ namespace Gui_Eva.ViewModel
         {
             Statue stat = new Statue();
 
-            stat = NyStatue;
-            stat.Placement = Placeringbind;
-            stat.Types = Typebind;
-            stat.Materiale = "sten";
+            stat.Name = NyStatue.Name;
+            stat.Statue_ID = NyStatue.Statue_ID;
+            stat.Location = NyStatue.Location;
+            stat.History = NyStatue.History;
+            stat.Note = NyStatue.Note;
+            stat.Placement = Placerings[placeringsindex];
+            stat.Types = StatueType[statueindex].ToString();
+            //stat.Materiale = "sten";
 
             facade.CreateStatue(stat);
         }

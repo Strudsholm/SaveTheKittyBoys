@@ -72,7 +72,8 @@ namespace Gui_Eva
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                rootFrame.Navigate(typeof(Forside1), e.Arguments);
+                //Forside er = opretstatue
+                rootFrame.Navigate(typeof(Forside), e.Arguments);
             }
             // Ensure the current window is active
             Window.Current.Activate();

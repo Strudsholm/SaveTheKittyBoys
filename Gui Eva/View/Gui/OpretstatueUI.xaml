@@ -50,8 +50,8 @@
                 </Grid.Background>
             </Grid>
             <TextBox x:Name="textBox1" Margin="466,210,0,0" TextWrapping="Wrap" Text="4858" VerticalAlignment="Top" HorizontalAlignment="Left" Height="61" Width="40"/>
-            <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="206,320,0,0" Height="46" Width="229" ItemsSource="{Binding StatueType}"/>
-            <ComboBox x:Name="comboBox_Copy1" HorizontalAlignment="Left" Margin="466,320,0,0" Height="46" Width="229" ItemsSource="{Binding Placerings, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="206,320,0,0" Height="46" Width="229" ItemsSource="{Binding StatueType}" SelectedItem="{Binding Typebind}"/>
+            <ComboBox x:Name="comboBox_Copy1" HorizontalAlignment="Left" Margin="466,320,0,0" Height="46" Width="229" ItemsSource="{Binding Placerings, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding Placeringbind}"/>
             <TextBlock x:Name="textBlock_Copy6" Margin="466,288,0,0" TextWrapping="Wrap" Text="Placering" VerticalAlignment="Top" Height="27" FontSize="18.667" HorizontalAlignment="Left" Width="169"/>
             <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="1312,602,0,0" VerticalAlignment="Top" Height="145" Width="190">
                 <Interactivity:Interaction.Behaviors>
@@ -68,7 +68,7 @@
             <Button x:Name="button3" Content="Button" HorizontalAlignment="Right" Height="44" Margin="0,271,107,0" VerticalAlignment="Top" Width="44">
                 <Interactivity:Interaction.Behaviors>
                     <Core:EventTriggerBehavior EventName="Click">
-                        <Core:InvokeCommandAction Command="{Binding OpretCommand}"/>
+                        <Core:InvokeCommandAction Command="{Binding OpretCommand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                     </Core:EventTriggerBehavior>
                 </Interactivity:Interaction.Behaviors>
             </Button>

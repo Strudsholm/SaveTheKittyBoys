@@ -10,10 +10,9 @@ namespace Gui_Eva.Model
     {
         public Statue()
         {
-            Materialer = new HashSet<Materialer>();
+            Materialer = new HashSet<Materiale>();
             Skader = new HashSet<Skader>();
         }
-
        
         public int Statue_ID { get; set; }
 
@@ -23,7 +22,7 @@ namespace Gui_Eva.Model
         
         public string Location { get; set; }
 
-        public string Types { get; set; }
+        //public string Types { get; set; }
 
        
         public string Placement { get; set; }
@@ -34,8 +33,8 @@ namespace Gui_Eva.Model
        
         public string Note { get; set; }
 
-        public string Materiale { get; set; }
-        public virtual ICollection<Materialer> Materialer { get; set; }
+        //public string Materiale { get; set; }
+        public virtual ICollection<Materiale> Materialer { get; set; }
 
      
         public virtual ICollection<Skader> Skader { get; set; }

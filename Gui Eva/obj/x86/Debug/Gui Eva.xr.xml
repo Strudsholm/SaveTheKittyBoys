@@ -1,13 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Andets" />
+    <RootPropertyPathName Name="Metals" />
+    <RootPropertyPathName Name="MaterialeCommand" />
+    <RootPropertyPathName Name="Stens" />
+    <RootPropertyPathName Name="SelIndex" />
+    <RootPropertyPathName Name="AddTypeCommand" />
     <RootPropertyPathName Name="OpretCommand" />
     <RootPropertyPathName Name="NyStatue" />
     <RootPropertyPathName Name="Statue_ID" />
     <RootPropertyPathName Name="Placerings" />
     <RootPropertyPathName Name="Placeringbind" />
     <RootPropertyPathName Name="StatueType" />
-    <RootPropertyPathName Name="Typebind" />
     <RootPropertyPathName Name="History" />
     <RootPropertyPathName Name="Note" />
     <RootPropertyPathName Name="Location" />
@@ -106,19 +111,27 @@
     <RootType FullName="Gui_Eva.Adminstrative_Funktioner" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Gui_Eva.Forside1" />
-    <RootType FullName="Gui_Eva.ViewModel.OpretStatueVM" />
+    <RootType FullName="Gui_Eva.ViewModel.MaterialeVM" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedIndex" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="UpdateSourceTrigger" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.InvokeCommandAction">
+      <RootProperty Name="Command" />
     </RootType>
     <RootType FullName="Gui_Eva.MaterialePage" />
     <RootType FullName="Gui_Eva.Opret_skade" />
+    <RootType FullName="Gui_Eva.ViewModel.OpretStatueVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -128,14 +141,8 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedIndex" />
       <RootProperty Name="SelectedItem" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.Interactions.Core.InvokeCommandAction">
-      <RootProperty Name="Command" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="Mode" />
-      <RootProperty Name="UpdateSourceTrigger" />
     </RootType>
     <RootType FullName="Gui_Eva.Forside" />
   </Roots.RootTypes>

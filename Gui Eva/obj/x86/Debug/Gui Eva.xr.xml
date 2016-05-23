@@ -6,10 +6,21 @@
     <RootPropertyPathName Name="MaterialeCommand" />
     <RootPropertyPathName Name="Stens" />
     <RootPropertyPathName Name="SelIndex" />
+    <RootPropertyPathName Name="Behandlinger" />
+    <RootPropertyPathName Name="SkadesTyper" />
+    <RootPropertyPathName Name="OpretSkadeCommand" />
+    <RootPropertyPathName Name="Frekvens" />
+    <RootPropertyPathName Name="Skadebind" />
+    <RootPropertyPathName Name="Behandlingfrekvens" />
+    <RootPropertyPathName Name="Aktioner" />
+    <RootPropertyPathName Name="BehandlingsAktion" />
+    <RootPropertyPathName Name="Notes" />
+    <RootPropertyPathName Name="Anbefalinger" />
+    <RootPropertyPathName Name="Price" />
+    <RootPropertyPathName Name="Statue_ID" />
     <RootPropertyPathName Name="AddTypeCommand" />
     <RootPropertyPathName Name="OpretCommand" />
     <RootPropertyPathName Name="NyStatue" />
-    <RootPropertyPathName Name="Statue_ID" />
     <RootPropertyPathName Name="Placerings" />
     <RootPropertyPathName Name="Placeringbind" />
     <RootPropertyPathName Name="StatueType" />
@@ -130,19 +141,21 @@
       <RootProperty Name="Command" />
     </RootType>
     <RootType FullName="Gui_Eva.MaterialePage" />
+    <RootType FullName="Gui_Eva.ViewModel.OpretSkadeVM" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="SelectedIndex" />
+    </RootType>
     <RootType FullName="Gui_Eva.Opret_skade" />
     <RootType FullName="Gui_Eva.ViewModel.OpretStatueVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="SelectedIndex" />
-      <RootProperty Name="SelectedItem" />
     </RootType>
     <RootType FullName="Gui_Eva.Forside" />
   </Roots.RootTypes>

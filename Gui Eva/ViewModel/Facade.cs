@@ -28,6 +28,83 @@ namespace Gui_Eva.ViewModel
             serverUrl = "http://localhost:1087/";
             handler.UseDefaultCredentials = true;
         }
+
+        public List<Behandling> GetBehandlingsType()
+        {
+            handlersetup();
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var ListOfBehandlingstype = new List<Behandling>();
+
+                try
+                {
+                    var response = client.GetAsync("api/Behandlings").Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        var GuestJson = response.Content.ReadAsStringAsync().Result;
+
+                        ListOfBehandlingstype = JsonConvert.DeserializeObject<List<Behandling>>(GuestJson);
+
+                        return ListOfBehandlingstype;
+
+                    }
+                    //Mangler fejlhåndtering
+                    return null;
+                }
+                catch (Exception e)
+                {
+
+                    throw e;
+
+                }
+
+            }
+        }
+        /// <summary>
+        /// Henter Skadetyperne fra DB
+        /// </summary>
+        /// <returns></returns>
+        public List<SkadesTyper> GetSkadesTypers()
+        {
+            handlersetup();
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var ListOfSkadestyper = new List<SkadesTyper>();
+
+                try
+                {
+                    var response = client.GetAsync("api/SkadesTypers").Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        var GuestJson = response.Content.ReadAsStringAsync().Result;
+
+                        ListOfSkadestyper = JsonConvert.DeserializeObject<List<SkadesTyper>>(GuestJson);
+
+                        return ListOfSkadestyper;
+
+                    }
+                    //Mangler fejlhåndtering
+                    return null;
+                }
+                catch (Exception e)
+                {
+
+                    throw e;
+
+                }
+
+            }
+        }
         /// <summary>
         /// Indsætter i binde table, så statuen bliver connectet til dens materialer.
         /// </summary>
@@ -58,6 +135,11 @@ namespace Gui_Eva.ViewModel
                 }
             }
         }
+        /// <summary>
+        /// connection mellem statue og type
+        /// </summary>
+        /// <param name="nyStatueType"></param>
+        /// <returns></returns>
         public async Task CreateStatueTyp(StatueType nyStatueType)
         {
             handlersetup();
@@ -316,30 +398,28 @@ namespace Gui_Eva.ViewModel
         /// <returns></returns>
         public async Task CreateStatue(Statue nyStatue)
         {
-
             handlersetup();
-
             using (var client = new HttpClient(handler))
             {
                 client.BaseAddress = new Uri(serverUrl);
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                //try
-                //{
+                try
+                {
 
                     var response = await client.PostAsJsonAsync("api/Statues", nyStatue);
                     if (response.IsSuccessStatusCode)
                     {
 
                     }
-                //}
-                //catch (Exception)
-                //{
-                //    throw;
-
-                //}
             }
+                catch (Exception)
+            {
+                throw;
+
+            }
+        }
 
         }
         /// <summary>
@@ -404,7 +484,7 @@ namespace Gui_Eva.ViewModel
             }
         }
         /// <summary>
-        /// Opdatere 
+        /// Opdatere skade 
         /// </summary>
         /// <param name="id"></param>
         /// <param name="nySkader"></param>

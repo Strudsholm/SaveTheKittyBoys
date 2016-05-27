@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="ObservableStatueInfO" />
+    <RootPropertyPathName Name="HentinfoCommand" />
+    <RootPropertyPathName Name="id" />
     <RootPropertyPathName Name="Andets" />
     <RootPropertyPathName Name="Metals" />
     <RootPropertyPathName Name="MaterialeCommand" />
@@ -118,12 +121,7 @@
     </RootType>
     <RootType FullName="Gui_Eva.Efter_Søg_Statue_Turist" />
     <RootType FullName="Gui_Eva.Find_Statue_Turist" />
-    <RootType FullName="Gui_Eva.FindStatue" />
-    <RootType FullName="Gui_Eva.Adminstrative_Funktioner" />
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Gui_Eva.Forside1" />
-    <RootType FullName="Gui_Eva.ViewModel.MaterialeVM" />
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Gui_Eva.ViewModel.FindStatueVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
@@ -140,6 +138,12 @@
     <RootType FullName="Microsoft.Xaml.Interactions.Core.InvokeCommandAction">
       <RootProperty Name="Command" />
     </RootType>
+    <RootType FullName="Gui_Eva.FindStatue" />
+    <RootType FullName="Gui_Eva.Adminstrative_Funktioner" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Gui_Eva.Forside1" />
+    <RootType FullName="Gui_Eva.ViewModel.MaterialeVM" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Gui_Eva.MaterialePage" />
     <RootType FullName="Gui_Eva.ViewModel.OpretSkadeVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">

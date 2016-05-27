@@ -29,6 +29,43 @@ namespace Gui_Eva.ViewModel
             handler.UseDefaultCredentials = true;
         }
 
+        public List<StatueInfoDTO> GetStatueInfo(int id)
+        {
+            handlersetup();
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var StatueInfo = new List<StatueInfoDTO>();
+
+                try
+                {
+                    var response = client.GetAsync("api/Statueinfo/"+id).Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        var GuestJson = response.Content.ReadAsStringAsync().Result;
+
+                        StatueInfo = JsonConvert.DeserializeObject<List<StatueInfoDTO>>(GuestJson);
+
+                        return StatueInfo;
+
+                    }
+                    //Mangler fejlhåndtering
+                    return null;
+                }
+                catch (Exception e)
+                {
+
+                    throw e;
+
+                }
+
+            }
+        }
+
         public List<Behandling> GetBehandlingsType()
         {
             handlersetup();

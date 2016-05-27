@@ -97,18 +97,23 @@
     <Compile Include="Model\KategoriType.cs" />
     <Compile Include="Model\Materiale.cs" />
     <Compile Include="Model\Placering.cs" />
+    <Compile Include="Model\SkadeBehandling.cs" />
     <Compile Include="Model\Skader.cs" />
     <Compile Include="Model\SkadesTyper.cs" />
+    <Compile Include="Model\SkadeType.cs" />
     <Compile Include="Model\Statue.cs" />
+    <Compile Include="Model\StatueInfoDTO.cs" />
     <Compile Include="Model\StatueMateriale.cs" />
     <Compile Include="Model\StatueType.cs" />
     <Compile Include="Model\Type.cs" />
     <Compile Include="RelayService\RelayArgCommand.cs" />
     <Compile Include="RelayService\RelayCommand.cs" />
     <Compile Include="ViewModel\Facade.cs" />
+    <Compile Include="ViewModel\FindStatueVM.cs" />
     <Compile Include="ViewModel\MaterialeVM.cs" />
     <Compile Include="ViewModel\OpretSkadeVM.cs" />
     <Compile Include="ViewModel\OpretStatueVM.cs" />
+    <Compile Include="ViewModel\TestVM.cs" />
     <Compile Include="View\Gui\Efter Søg Statue.xaml.cs">
       <DependentUpon>Efter Søg Statue.xaml</DependentUpon>
     </Compile>

@@ -18,9 +18,15 @@ namespace Gui_Eva.ViewModel
         public int SelectedFrekvens { get; set; }
         public string SelectedAktion { get; set; }
 
+        public List<Behandling> b { get; set; }
+        public Behandling BehandlingB { get; set; }
+        public List<SkadesTyper> s { get; set; }
+        public SkadesTyper SkadeTypeS { get; set; }
         public List<Behandling> Behandlinger { get; set; }
         public List<SkadesTyper> SkadesTyper { get; set; }
         public RelayCommand OpretSkadeCommand { get; set; }
+        public RelayCommand TilføjskadetypeCommand { get; set; }
+        public RelayCommand TilføjBehandlingCommand { get; set; }
         
 
         public OpretSkadeVM()
@@ -29,6 +35,8 @@ namespace Gui_Eva.ViewModel
             Skadebind = new Skader();
             SkadesTyper = new List<SkadesTyper>();
             Behandlinger = new List<Behandling>();
+            s = new List<SkadesTyper>();
+            b = new List<Behandling>();
 
             Frekvens = new List<int>();
             Frekvens.Add(1);
@@ -47,8 +55,20 @@ namespace Gui_Eva.ViewModel
 
 
             OpretSkadeCommand = new RelayCommand(OpretSkade);
+            //TilføjBehandlingCommand = new RelayCommand(TilføjBehandling);
+            //TilføjskadetypeCommand = new RelayCommand(TilføjSkadeType);
 
         }
+        //Skal bruges til tilføje behandling og skadestype til skaden.
+        //public void TilføjBehandling()
+        //{
+        //    s.Add(SkadeTypeS);
+        //}
+
+        //public void TilføjSkadeType()
+        //{
+        //    b.Add(BehandlingB);
+        //}
 
         public void OpretSkade()
         {

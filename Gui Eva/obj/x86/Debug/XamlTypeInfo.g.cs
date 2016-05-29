@@ -132,7 +132,7 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[52];
+            _typeNameTable = new string[58];
             _typeNameTable[0] = "Microsoft.Xaml.Interactivity.Interaction";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
@@ -160,33 +160,39 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeNameTable[24] = "Windows.UI.Xaml.Data.IValueConverter";
             _typeNameTable[25] = "Gui_Eva.FindStatue";
             _typeNameTable[26] = "Gui_Eva.Adminstrative_Funktioner";
-            _typeNameTable[27] = "Gui_Eva.Forside1";
-            _typeNameTable[28] = "Gui_Eva.ViewModel.MaterialeVM";
-            _typeNameTable[29] = "System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>";
-            _typeNameTable[30] = "Gui_Eva.Model.Materiale";
-            _typeNameTable[31] = "System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueMateriale>";
-            _typeNameTable[32] = "Gui_Eva.Model.StatueMateriale";
-            _typeNameTable[33] = "Gui_Eva.Model.Statue";
-            _typeNameTable[34] = "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>";
-            _typeNameTable[35] = "System.Collections.ObjectModel.Collection`1<Gui_Eva.Model.Materiale>";
-            _typeNameTable[36] = "Gui_Eva.MaterialePage";
-            _typeNameTable[37] = "Gui_Eva.ViewModel.OpretSkadeVM";
-            _typeNameTable[38] = "Gui_Eva.Model.Skader";
-            _typeNameTable[39] = "System.Collections.Generic.List`1<Int32>";
-            _typeNameTable[40] = "System.Collections.Generic.List`1<String>";
-            _typeNameTable[41] = "System.Collections.Generic.List`1<Gui_Eva.Model.Behandling>";
-            _typeNameTable[42] = "Gui_Eva.Model.Behandling";
-            _typeNameTable[43] = "System.Collections.Generic.List`1<Gui_Eva.Model.SkadesTyper>";
-            _typeNameTable[44] = "Gui_Eva.Model.SkadesTyper";
-            _typeNameTable[45] = "Gui_Eva.Opret_skade";
-            _typeNameTable[46] = "Gui_Eva.ViewModel.OpretStatueVM";
-            _typeNameTable[47] = "System.Collections.Generic.List`1<Gui_Eva.Model.KategoriType>";
-            _typeNameTable[48] = "Gui_Eva.Model.KategoriType";
-            _typeNameTable[49] = "System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueType>";
-            _typeNameTable[50] = "Gui_Eva.Model.StatueType";
-            _typeNameTable[51] = "Gui_Eva.Forside";
+            _typeNameTable[27] = "Gui_Eva.ViewModel.FindSkade";
+            _typeNameTable[28] = "System.Collections.Generic.List`1<Gui_Eva.Model.SkadeInfoDTO>";
+            _typeNameTable[29] = "Gui_Eva.Model.SkadeInfoDTO";
+            _typeNameTable[30] = "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.SkadeInfoDTO>";
+            _typeNameTable[31] = "System.Collections.ObjectModel.Collection`1<Gui_Eva.Model.SkadeInfoDTO>";
+            _typeNameTable[32] = "Gui_Eva.FindSkade";
+            _typeNameTable[33] = "Gui_Eva.Forside1";
+            _typeNameTable[34] = "Gui_Eva.ViewModel.MaterialeVM";
+            _typeNameTable[35] = "System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>";
+            _typeNameTable[36] = "Gui_Eva.Model.Materiale";
+            _typeNameTable[37] = "System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueMateriale>";
+            _typeNameTable[38] = "Gui_Eva.Model.StatueMateriale";
+            _typeNameTable[39] = "Gui_Eva.Model.Statue";
+            _typeNameTable[40] = "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>";
+            _typeNameTable[41] = "System.Collections.ObjectModel.Collection`1<Gui_Eva.Model.Materiale>";
+            _typeNameTable[42] = "Gui_Eva.MaterialePage";
+            _typeNameTable[43] = "Gui_Eva.ViewModel.OpretSkadeVM";
+            _typeNameTable[44] = "Gui_Eva.Model.Skader";
+            _typeNameTable[45] = "System.Collections.Generic.List`1<Int32>";
+            _typeNameTable[46] = "System.Collections.Generic.List`1<String>";
+            _typeNameTable[47] = "System.Collections.Generic.List`1<Gui_Eva.Model.Behandling>";
+            _typeNameTable[48] = "Gui_Eva.Model.Behandling";
+            _typeNameTable[49] = "System.Collections.Generic.List`1<Gui_Eva.Model.SkadesTyper>";
+            _typeNameTable[50] = "Gui_Eva.Model.SkadesTyper";
+            _typeNameTable[51] = "Gui_Eva.Opret_skade";
+            _typeNameTable[52] = "Gui_Eva.ViewModel.OpretStatueVM";
+            _typeNameTable[53] = "System.Collections.Generic.List`1<Gui_Eva.Model.KategoriType>";
+            _typeNameTable[54] = "Gui_Eva.Model.KategoriType";
+            _typeNameTable[55] = "System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueType>";
+            _typeNameTable[56] = "Gui_Eva.Model.StatueType";
+            _typeNameTable[57] = "Gui_Eva.Forside";
 
-            _typeTable = new global::System.Type[52];
+            _typeTable = new global::System.Type[58];
             _typeTable[0] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
@@ -214,31 +220,37 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             _typeTable[24] = typeof(global::Windows.UI.Xaml.Data.IValueConverter);
             _typeTable[25] = typeof(global::Gui_Eva.FindStatue);
             _typeTable[26] = typeof(global::Gui_Eva.Adminstrative_Funktioner);
-            _typeTable[27] = typeof(global::Gui_Eva.Forside1);
-            _typeTable[28] = typeof(global::Gui_Eva.ViewModel.MaterialeVM);
-            _typeTable[29] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>);
-            _typeTable[30] = typeof(global::Gui_Eva.Model.Materiale);
-            _typeTable[31] = typeof(global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.StatueMateriale>);
-            _typeTable[32] = typeof(global::Gui_Eva.Model.StatueMateriale);
-            _typeTable[33] = typeof(global::Gui_Eva.Model.Statue);
-            _typeTable[34] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>);
-            _typeTable[35] = typeof(global::System.Collections.ObjectModel.Collection<global::Gui_Eva.Model.Materiale>);
-            _typeTable[36] = typeof(global::Gui_Eva.MaterialePage);
-            _typeTable[37] = typeof(global::Gui_Eva.ViewModel.OpretSkadeVM);
-            _typeTable[38] = typeof(global::Gui_Eva.Model.Skader);
-            _typeTable[39] = typeof(global::System.Collections.Generic.List<global::System.Int32>);
-            _typeTable[40] = typeof(global::System.Collections.Generic.List<global::System.String>);
-            _typeTable[41] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.Behandling>);
-            _typeTable[42] = typeof(global::Gui_Eva.Model.Behandling);
-            _typeTable[43] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadesTyper>);
-            _typeTable[44] = typeof(global::Gui_Eva.Model.SkadesTyper);
-            _typeTable[45] = typeof(global::Gui_Eva.Opret_skade);
-            _typeTable[46] = typeof(global::Gui_Eva.ViewModel.OpretStatueVM);
-            _typeTable[47] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.KategoriType>);
-            _typeTable[48] = typeof(global::Gui_Eva.Model.KategoriType);
-            _typeTable[49] = typeof(global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.StatueType>);
-            _typeTable[50] = typeof(global::Gui_Eva.Model.StatueType);
-            _typeTable[51] = typeof(global::Gui_Eva.Forside);
+            _typeTable[27] = typeof(global::Gui_Eva.ViewModel.FindSkade);
+            _typeTable[28] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadeInfoDTO>);
+            _typeTable[29] = typeof(global::Gui_Eva.Model.SkadeInfoDTO);
+            _typeTable[30] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.SkadeInfoDTO>);
+            _typeTable[31] = typeof(global::System.Collections.ObjectModel.Collection<global::Gui_Eva.Model.SkadeInfoDTO>);
+            _typeTable[32] = typeof(global::Gui_Eva.FindSkade);
+            _typeTable[33] = typeof(global::Gui_Eva.Forside1);
+            _typeTable[34] = typeof(global::Gui_Eva.ViewModel.MaterialeVM);
+            _typeTable[35] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>);
+            _typeTable[36] = typeof(global::Gui_Eva.Model.Materiale);
+            _typeTable[37] = typeof(global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.StatueMateriale>);
+            _typeTable[38] = typeof(global::Gui_Eva.Model.StatueMateriale);
+            _typeTable[39] = typeof(global::Gui_Eva.Model.Statue);
+            _typeTable[40] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>);
+            _typeTable[41] = typeof(global::System.Collections.ObjectModel.Collection<global::Gui_Eva.Model.Materiale>);
+            _typeTable[42] = typeof(global::Gui_Eva.MaterialePage);
+            _typeTable[43] = typeof(global::Gui_Eva.ViewModel.OpretSkadeVM);
+            _typeTable[44] = typeof(global::Gui_Eva.Model.Skader);
+            _typeTable[45] = typeof(global::System.Collections.Generic.List<global::System.Int32>);
+            _typeTable[46] = typeof(global::System.Collections.Generic.List<global::System.String>);
+            _typeTable[47] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.Behandling>);
+            _typeTable[48] = typeof(global::Gui_Eva.Model.Behandling);
+            _typeTable[49] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadesTyper>);
+            _typeTable[50] = typeof(global::Gui_Eva.Model.SkadesTyper);
+            _typeTable[51] = typeof(global::Gui_Eva.Opret_skade);
+            _typeTable[52] = typeof(global::Gui_Eva.ViewModel.OpretStatueVM);
+            _typeTable[53] = typeof(global::System.Collections.Generic.List<global::Gui_Eva.Model.KategoriType>);
+            _typeTable[54] = typeof(global::Gui_Eva.Model.KategoriType);
+            _typeTable[55] = typeof(global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.StatueType>);
+            _typeTable[56] = typeof(global::Gui_Eva.Model.StatueType);
+            _typeTable[57] = typeof(global::Gui_Eva.Forside);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -289,29 +301,35 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
         private object Activate_22_InvokeCommandAction() { return new global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction(); }
         private object Activate_25_FindStatue() { return new global::Gui_Eva.FindStatue(); }
         private object Activate_26_Adminstrative_Funktioner() { return new global::Gui_Eva.Adminstrative_Funktioner(); }
-        private object Activate_27_Forside1() { return new global::Gui_Eva.Forside1(); }
-        private object Activate_28_MaterialeVM() { return new global::Gui_Eva.ViewModel.MaterialeVM(); }
-        private object Activate_29_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>(); }
-        private object Activate_30_Materiale() { return new global::Gui_Eva.Model.Materiale(); }
-        private object Activate_32_StatueMateriale() { return new global::Gui_Eva.Model.StatueMateriale(); }
-        private object Activate_33_Statue() { return new global::Gui_Eva.Model.Statue(); }
-        private object Activate_34_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>(); }
-        private object Activate_35_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Gui_Eva.Model.Materiale>(); }
-        private object Activate_36_MaterialePage() { return new global::Gui_Eva.MaterialePage(); }
-        private object Activate_37_OpretSkadeVM() { return new global::Gui_Eva.ViewModel.OpretSkadeVM(); }
-        private object Activate_38_Skader() { return new global::Gui_Eva.Model.Skader(); }
-        private object Activate_39_List() { return new global::System.Collections.Generic.List<global::System.Int32>(); }
-        private object Activate_40_List() { return new global::System.Collections.Generic.List<global::System.String>(); }
-        private object Activate_41_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.Behandling>(); }
-        private object Activate_42_Behandling() { return new global::Gui_Eva.Model.Behandling(); }
-        private object Activate_43_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadesTyper>(); }
-        private object Activate_44_SkadesTyper() { return new global::Gui_Eva.Model.SkadesTyper(); }
-        private object Activate_45_Opret_skade() { return new global::Gui_Eva.Opret_skade(); }
-        private object Activate_46_OpretStatueVM() { return new global::Gui_Eva.ViewModel.OpretStatueVM(); }
-        private object Activate_47_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.KategoriType>(); }
-        private object Activate_48_KategoriType() { return new global::Gui_Eva.Model.KategoriType(); }
-        private object Activate_50_StatueType() { return new global::Gui_Eva.Model.StatueType(); }
-        private object Activate_51_Forside() { return new global::Gui_Eva.Forside(); }
+        private object Activate_27_FindSkade() { return new global::Gui_Eva.ViewModel.FindSkade(); }
+        private object Activate_28_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadeInfoDTO>(); }
+        private object Activate_29_SkadeInfoDTO() { return new global::Gui_Eva.Model.SkadeInfoDTO(); }
+        private object Activate_30_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.SkadeInfoDTO>(); }
+        private object Activate_31_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Gui_Eva.Model.SkadeInfoDTO>(); }
+        private object Activate_32_FindSkade() { return new global::Gui_Eva.FindSkade(); }
+        private object Activate_33_Forside1() { return new global::Gui_Eva.Forside1(); }
+        private object Activate_34_MaterialeVM() { return new global::Gui_Eva.ViewModel.MaterialeVM(); }
+        private object Activate_35_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>(); }
+        private object Activate_36_Materiale() { return new global::Gui_Eva.Model.Materiale(); }
+        private object Activate_38_StatueMateriale() { return new global::Gui_Eva.Model.StatueMateriale(); }
+        private object Activate_39_Statue() { return new global::Gui_Eva.Model.Statue(); }
+        private object Activate_40_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>(); }
+        private object Activate_41_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Gui_Eva.Model.Materiale>(); }
+        private object Activate_42_MaterialePage() { return new global::Gui_Eva.MaterialePage(); }
+        private object Activate_43_OpretSkadeVM() { return new global::Gui_Eva.ViewModel.OpretSkadeVM(); }
+        private object Activate_44_Skader() { return new global::Gui_Eva.Model.Skader(); }
+        private object Activate_45_List() { return new global::System.Collections.Generic.List<global::System.Int32>(); }
+        private object Activate_46_List() { return new global::System.Collections.Generic.List<global::System.String>(); }
+        private object Activate_47_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.Behandling>(); }
+        private object Activate_48_Behandling() { return new global::Gui_Eva.Model.Behandling(); }
+        private object Activate_49_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadesTyper>(); }
+        private object Activate_50_SkadesTyper() { return new global::Gui_Eva.Model.SkadesTyper(); }
+        private object Activate_51_Opret_skade() { return new global::Gui_Eva.Opret_skade(); }
+        private object Activate_52_OpretStatueVM() { return new global::Gui_Eva.ViewModel.OpretStatueVM(); }
+        private object Activate_53_List() { return new global::System.Collections.Generic.List<global::Gui_Eva.Model.KategoriType>(); }
+        private object Activate_54_KategoriType() { return new global::Gui_Eva.Model.KategoriType(); }
+        private object Activate_56_StatueType() { return new global::Gui_Eva.Model.StatueType(); }
+        private object Activate_57_Forside() { return new global::Gui_Eva.Forside(); }
         private void VectorAdd_2_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
@@ -342,61 +360,79 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             var newItem = (global::Gui_Eva.Model.StatueInfoDTO)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_29_List(object instance, object item)
+        private void VectorAdd_28_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.SkadeInfoDTO>)instance;
+            var newItem = (global::Gui_Eva.Model.SkadeInfoDTO)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_30_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.SkadeInfoDTO>)instance;
+            var newItem = (global::Gui_Eva.Model.SkadeInfoDTO)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_31_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.SkadeInfoDTO>)instance;
+            var newItem = (global::Gui_Eva.Model.SkadeInfoDTO)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_35_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.Materiale>)instance;
             var newItem = (global::Gui_Eva.Model.Materiale)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_31_ICollection(object instance, object item)
+        private void VectorAdd_37_ICollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.StatueMateriale>)instance;
             var newItem = (global::Gui_Eva.Model.StatueMateriale)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_34_ObservableCollection(object instance, object item)
+        private void VectorAdd_40_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.Materiale>)instance;
             var newItem = (global::Gui_Eva.Model.Materiale)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_35_Collection(object instance, object item)
+        private void VectorAdd_41_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.Materiale>)instance;
             var newItem = (global::Gui_Eva.Model.Materiale)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_39_List(object instance, object item)
+        private void VectorAdd_45_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Int32>)instance;
             var newItem = (global::System.Int32)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_40_List(object instance, object item)
+        private void VectorAdd_46_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.String>)instance;
             var newItem = (global::System.String)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_41_List(object instance, object item)
+        private void VectorAdd_47_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.Behandling>)instance;
             var newItem = (global::Gui_Eva.Model.Behandling)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_43_List(object instance, object item)
+        private void VectorAdd_49_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.SkadesTyper>)instance;
             var newItem = (global::Gui_Eva.Model.SkadesTyper)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_47_List(object instance, object item)
+        private void VectorAdd_53_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.KategoriType>)instance;
             var newItem = (global::Gui_Eva.Model.KategoriType)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_49_ICollection(object instance, object item)
+        private void VectorAdd_55_ICollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.StatueType>)instance;
             var newItem = (global::Gui_Eva.Model.StatueType)item;
@@ -599,16 +635,72 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 27:   //  Gui_Eva.Forside1
-                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_27_Forside1;
+            case 27:   //  Gui_Eva.ViewModel.FindSkade
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_27_FindSkade;
+                userType.AddMemberName("facade");
+                userType.AddMemberName("SkadeInfo");
+                userType.AddMemberName("ObservableSkadeInfo");
+                userType.AddMemberName("id");
+                userType.AddMemberName("HentinfoCommand");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 28:   //  Gui_Eva.ViewModel.MaterialeVM
+            case 28:   //  System.Collections.Generic.List`1<Gui_Eva.Model.SkadeInfoDTO>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_28_MaterialeVM;
+                userType.CollectionAdd = VectorAdd_28_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 29:   //  Gui_Eva.Model.SkadeInfoDTO
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_29_SkadeInfoDTO;
+                userType.AddMemberName("SkadeID");
+                userType.AddMemberName("StatueID");
+                userType.AddMemberName("Pris");
+                userType.AddMemberName("Anbefalinger");
+                userType.AddMemberName("Noter");
+                userType.AddMemberName("BehandlingsAktion");
+                userType.AddMemberName("BehandlingsFrekvens");
+                userType.AddMemberName("SkadeType");
+                userType.AddMemberName("SkadeBehandling");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 30:   //  System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.SkadeInfoDTO>
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Gui_Eva.Model.SkadeInfoDTO>"));
+                userType.CollectionAdd = VectorAdd_30_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 31:   //  System.Collections.ObjectModel.Collection`1<Gui_Eva.Model.SkadeInfoDTO>
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_31_Collection;
+                userType.CollectionAdd = VectorAdd_31_Collection;
+                xamlType = userType;
+                break;
+
+            case 32:   //  Gui_Eva.FindSkade
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_32_FindSkade;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 33:   //  Gui_Eva.Forside1
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_33_Forside1;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 34:   //  Gui_Eva.ViewModel.MaterialeVM
+                userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_34_MaterialeVM;
                 userType.AddMemberName("facade");
                 userType.AddMemberName("Sten");
                 userType.AddMemberName("Metal");
@@ -616,22 +708,27 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 userType.AddMemberName("Stens");
                 userType.AddMemberName("Metals");
                 userType.AddMemberName("Andets");
-                userType.AddMemberName("MaterialeCommand");
+                userType.AddMemberName("TilføjedeMaterialer");
+                userType.AddMemberName("AddStenCommand");
+                userType.AddMemberName("AddMetalCommand");
+                userType.AddMemberName("AddAndetCommand");
                 userType.AddMemberName("SelIndex");
+                userType.AddMemberName("SelIndexMetal");
+                userType.AddMemberName("SelIndexAndet");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 29:   //  System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>
+            case 35:   //  System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_29_List;
+                userType.CollectionAdd = VectorAdd_35_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 30:   //  Gui_Eva.Model.Materiale
+            case 36:   //  Gui_Eva.Model.Materiale
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_30_Materiale;
+                userType.Activator = Activate_36_Materiale;
                 userType.AddMemberName("Materiale_ID");
                 userType.AddMemberName("Materiale_Navn");
                 userType.AddMemberName("Materiale_Type");
@@ -640,16 +737,16 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 31:   //  System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueMateriale>
+            case 37:   //  System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueMateriale>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_31_ICollection;
+                userType.CollectionAdd = VectorAdd_37_ICollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 32:   //  Gui_Eva.Model.StatueMateriale
+            case 38:   //  Gui_Eva.Model.StatueMateriale
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_32_StatueMateriale;
+                userType.Activator = Activate_38_StatueMateriale;
                 userType.AddMemberName("Materiale_ID");
                 userType.AddMemberName("Statue_ID");
                 userType.AddMemberName("ID");
@@ -659,37 +756,37 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 33:   //  Gui_Eva.Model.Statue
+            case 39:   //  Gui_Eva.Model.Statue
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 34:   //  System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>
+            case 40:   //  System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Gui_Eva.Model.Materiale>"));
-                userType.CollectionAdd = VectorAdd_34_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_40_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 35:   //  System.Collections.ObjectModel.Collection`1<Gui_Eva.Model.Materiale>
+            case 41:   //  System.Collections.ObjectModel.Collection`1<Gui_Eva.Model.Materiale>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_35_Collection;
-                userType.CollectionAdd = VectorAdd_35_Collection;
+                userType.Activator = Activate_41_Collection;
+                userType.CollectionAdd = VectorAdd_41_Collection;
                 xamlType = userType;
                 break;
 
-            case 36:   //  Gui_Eva.MaterialePage
+            case 42:   //  Gui_Eva.MaterialePage
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_36_MaterialePage;
+                userType.Activator = Activate_42_MaterialePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  Gui_Eva.ViewModel.OpretSkadeVM
+            case 43:   //  Gui_Eva.ViewModel.OpretSkadeVM
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_37_OpretSkadeVM;
+                userType.Activator = Activate_43_OpretSkadeVM;
                 userType.AddMemberName("facade");
                 userType.AddMemberName("Skadebind");
                 userType.AddMemberName("Skade");
@@ -710,69 +807,69 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 38:   //  Gui_Eva.Model.Skader
+            case 44:   //  Gui_Eva.Model.Skader
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 39:   //  System.Collections.Generic.List`1<Int32>
+            case 45:   //  System.Collections.Generic.List`1<Int32>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_39_List;
+                userType.CollectionAdd = VectorAdd_45_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 40:   //  System.Collections.Generic.List`1<String>
+            case 46:   //  System.Collections.Generic.List`1<String>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_40_List;
+                userType.CollectionAdd = VectorAdd_46_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 41:   //  System.Collections.Generic.List`1<Gui_Eva.Model.Behandling>
+            case 47:   //  System.Collections.Generic.List`1<Gui_Eva.Model.Behandling>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_41_List;
+                userType.CollectionAdd = VectorAdd_47_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 42:   //  Gui_Eva.Model.Behandling
+            case 48:   //  Gui_Eva.Model.Behandling
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_42_Behandling;
+                userType.Activator = Activate_48_Behandling;
                 userType.AddMemberName("BehandlingsType_ID");
                 userType.AddMemberName("BehandlingsType_Navn");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  System.Collections.Generic.List`1<Gui_Eva.Model.SkadesTyper>
+            case 49:   //  System.Collections.Generic.List`1<Gui_Eva.Model.SkadesTyper>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_43_List;
+                userType.CollectionAdd = VectorAdd_49_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 44:   //  Gui_Eva.Model.SkadesTyper
+            case 50:   //  Gui_Eva.Model.SkadesTyper
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_44_SkadesTyper;
+                userType.Activator = Activate_50_SkadesTyper;
                 userType.AddMemberName("SkadeType_ID");
                 userType.AddMemberName("SkadeType_Navn");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 45:   //  Gui_Eva.Opret_skade
+            case 51:   //  Gui_Eva.Opret_skade
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_45_Opret_skade;
+                userType.Activator = Activate_51_Opret_skade;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 46:   //  Gui_Eva.ViewModel.OpretStatueVM
+            case 52:   //  Gui_Eva.ViewModel.OpretStatueVM
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_46_OpretStatueVM;
+                userType.Activator = Activate_52_OpretStatueVM;
                 userType.AddMemberName("NyStatue");
                 userType.AddMemberName("NystatueMat");
                 userType.AddMemberName("Placerings");
@@ -799,16 +896,16 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 47:   //  System.Collections.Generic.List`1<Gui_Eva.Model.KategoriType>
+            case 53:   //  System.Collections.Generic.List`1<Gui_Eva.Model.KategoriType>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_47_List;
+                userType.CollectionAdd = VectorAdd_53_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 48:   //  Gui_Eva.Model.KategoriType
+            case 54:   //  Gui_Eva.Model.KategoriType
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_48_KategoriType;
+                userType.Activator = Activate_54_KategoriType;
                 userType.AddMemberName("Type_ID");
                 userType.AddMemberName("Type_Navn");
                 userType.AddMemberName("StatueType");
@@ -816,16 +913,16 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 49:   //  System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueType>
+            case 55:   //  System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueType>
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_49_ICollection;
+                userType.CollectionAdd = VectorAdd_55_ICollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 50:   //  Gui_Eva.Model.StatueType
+            case 56:   //  Gui_Eva.Model.StatueType
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_50_StatueType;
+                userType.Activator = Activate_56_StatueType;
                 userType.AddMemberName("Type_ID");
                 userType.AddMemberName("Statue_ID");
                 userType.AddMemberName("ID");
@@ -834,9 +931,9 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 51:   //  Gui_Eva.Forside
+            case 57:   //  Gui_Eva.Forside
                 userType = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_51_Forside;
+                userType.Activator = Activate_57_Forside;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -1093,672 +1190,862 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             that.InputConverterLanguage = (global::System.String)Value;
         }
-        private object get_26_MaterialeVM_facade(object instance)
+        private object get_26_FindSkade_facade(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            return that.facade;
+        }
+        private void set_26_FindSkade_facade(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            that.facade = (global::Gui_Eva.ViewModel.Facade)Value;
+        }
+        private object get_27_FindSkade_SkadeInfo(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            return that.SkadeInfo;
+        }
+        private void set_27_FindSkade_SkadeInfo(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            that.SkadeInfo = (global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadeInfoDTO>)Value;
+        }
+        private object get_28_SkadeInfoDTO_SkadeID(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.SkadeID;
+        }
+        private void set_28_SkadeInfoDTO_SkadeID(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.SkadeID = (global::System.Int32)Value;
+        }
+        private object get_29_SkadeInfoDTO_StatueID(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.StatueID;
+        }
+        private void set_29_SkadeInfoDTO_StatueID(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.StatueID = (global::System.Int32)Value;
+        }
+        private object get_30_SkadeInfoDTO_Pris(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.Pris;
+        }
+        private void set_30_SkadeInfoDTO_Pris(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.Pris = (global::System.Int32)Value;
+        }
+        private object get_31_SkadeInfoDTO_Anbefalinger(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.Anbefalinger;
+        }
+        private void set_31_SkadeInfoDTO_Anbefalinger(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.Anbefalinger = (global::System.String)Value;
+        }
+        private object get_32_SkadeInfoDTO_Noter(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.Noter;
+        }
+        private void set_32_SkadeInfoDTO_Noter(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.Noter = (global::System.String)Value;
+        }
+        private object get_33_SkadeInfoDTO_BehandlingsAktion(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.BehandlingsAktion;
+        }
+        private void set_33_SkadeInfoDTO_BehandlingsAktion(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.BehandlingsAktion = (global::System.String)Value;
+        }
+        private object get_34_SkadeInfoDTO_BehandlingsFrekvens(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.BehandlingsFrekvens;
+        }
+        private void set_34_SkadeInfoDTO_BehandlingsFrekvens(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.BehandlingsFrekvens = (global::System.String)Value;
+        }
+        private object get_35_SkadeInfoDTO_SkadeType(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.SkadeType;
+        }
+        private void set_35_SkadeInfoDTO_SkadeType(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.SkadeType = (global::System.String)Value;
+        }
+        private object get_36_SkadeInfoDTO_SkadeBehandling(object instance)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            return that.SkadeBehandling;
+        }
+        private void set_36_SkadeInfoDTO_SkadeBehandling(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.Model.SkadeInfoDTO)instance;
+            that.SkadeBehandling = (global::System.String)Value;
+        }
+        private object get_37_FindSkade_ObservableSkadeInfo(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            return that.ObservableSkadeInfo;
+        }
+        private void set_37_FindSkade_ObservableSkadeInfo(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            that.ObservableSkadeInfo = (global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.SkadeInfoDTO>)Value;
+        }
+        private object get_38_FindSkade_id(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            return that.id;
+        }
+        private void set_38_FindSkade_id(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            that.id = (global::System.Int32)Value;
+        }
+        private object get_39_FindSkade_HentinfoCommand(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            return that.HentinfoCommand;
+        }
+        private void set_39_FindSkade_HentinfoCommand(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.FindSkade)instance;
+            that.HentinfoCommand = (global::Eventmaker.Common.RelayCommand)Value;
+        }
+        private object get_40_MaterialeVM_facade(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             return that.facade;
         }
-        private void set_26_MaterialeVM_facade(object instance, object Value)
+        private void set_40_MaterialeVM_facade(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             that.facade = (global::Gui_Eva.ViewModel.Facade)Value;
         }
-        private object get_27_MaterialeVM_Sten(object instance)
+        private object get_41_MaterialeVM_Sten(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             return that.Sten;
         }
-        private void set_27_MaterialeVM_Sten(object instance, object Value)
+        private void set_41_MaterialeVM_Sten(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             that.Sten = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_28_Materiale_Materiale_ID(object instance)
+        private object get_42_Materiale_Materiale_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.Materiale)instance;
             return that.Materiale_ID;
         }
-        private void set_28_Materiale_Materiale_ID(object instance, object Value)
+        private void set_42_Materiale_Materiale_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.Materiale)instance;
             that.Materiale_ID = (global::System.Int32)Value;
         }
-        private object get_29_Materiale_Materiale_Navn(object instance)
+        private object get_43_Materiale_Materiale_Navn(object instance)
         {
             var that = (global::Gui_Eva.Model.Materiale)instance;
             return that.Materiale_Navn;
         }
-        private void set_29_Materiale_Materiale_Navn(object instance, object Value)
+        private void set_43_Materiale_Materiale_Navn(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.Materiale)instance;
             that.Materiale_Navn = (global::System.String)Value;
         }
-        private object get_30_Materiale_Materiale_Type(object instance)
+        private object get_44_Materiale_Materiale_Type(object instance)
         {
             var that = (global::Gui_Eva.Model.Materiale)instance;
             return that.Materiale_Type;
         }
-        private void set_30_Materiale_Materiale_Type(object instance, object Value)
+        private void set_44_Materiale_Materiale_Type(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.Materiale)instance;
             that.Materiale_Type = (global::System.String)Value;
         }
-        private object get_31_Materiale_StatueMateriale(object instance)
+        private object get_45_Materiale_StatueMateriale(object instance)
         {
             var that = (global::Gui_Eva.Model.Materiale)instance;
             return that.StatueMateriale;
         }
-        private void set_31_Materiale_StatueMateriale(object instance, object Value)
+        private void set_45_Materiale_StatueMateriale(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.Materiale)instance;
             that.StatueMateriale = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.StatueMateriale>)Value;
         }
-        private object get_32_StatueMateriale_Materiale_ID(object instance)
+        private object get_46_StatueMateriale_Materiale_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             return that.Materiale_ID;
         }
-        private void set_32_StatueMateriale_Materiale_ID(object instance, object Value)
+        private void set_46_StatueMateriale_Materiale_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             that.Materiale_ID = (global::System.Int32)Value;
         }
-        private object get_33_StatueMateriale_Statue_ID(object instance)
+        private object get_47_StatueMateriale_Statue_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             return that.Statue_ID;
         }
-        private void set_33_StatueMateriale_Statue_ID(object instance, object Value)
+        private void set_47_StatueMateriale_Statue_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             that.Statue_ID = (global::System.Int32)Value;
         }
-        private object get_34_StatueMateriale_ID(object instance)
+        private object get_48_StatueMateriale_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             return that.ID;
         }
-        private void set_34_StatueMateriale_ID(object instance, object Value)
+        private void set_48_StatueMateriale_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             that.ID = (global::System.Int32)Value;
         }
-        private object get_35_StatueMateriale_Materiale(object instance)
+        private object get_49_StatueMateriale_Materiale(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             return that.Materiale;
         }
-        private void set_35_StatueMateriale_Materiale(object instance, object Value)
+        private void set_49_StatueMateriale_Materiale(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             that.Materiale = (global::Gui_Eva.Model.Materiale)Value;
         }
-        private object get_36_StatueMateriale_Statue(object instance)
+        private object get_50_StatueMateriale_Statue(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             return that.Statue;
         }
-        private void set_36_StatueMateriale_Statue(object instance, object Value)
+        private void set_50_StatueMateriale_Statue(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueMateriale)instance;
             that.Statue = (global::Gui_Eva.Model.Statue)Value;
         }
-        private object get_37_MaterialeVM_Metal(object instance)
+        private object get_51_MaterialeVM_Metal(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             return that.Metal;
         }
-        private void set_37_MaterialeVM_Metal(object instance, object Value)
+        private void set_51_MaterialeVM_Metal(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             that.Metal = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_38_MaterialeVM_Andet(object instance)
+        private object get_52_MaterialeVM_Andet(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             return that.Andet;
         }
-        private void set_38_MaterialeVM_Andet(object instance, object Value)
+        private void set_52_MaterialeVM_Andet(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             that.Andet = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_39_MaterialeVM_Stens(object instance)
+        private object get_53_MaterialeVM_Stens(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             return that.Stens;
         }
-        private void set_39_MaterialeVM_Stens(object instance, object Value)
+        private void set_53_MaterialeVM_Stens(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             that.Stens = (global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_40_MaterialeVM_Metals(object instance)
+        private object get_54_MaterialeVM_Metals(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             return that.Metals;
         }
-        private void set_40_MaterialeVM_Metals(object instance, object Value)
+        private void set_54_MaterialeVM_Metals(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             that.Metals = (global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_41_MaterialeVM_Andets(object instance)
+        private object get_55_MaterialeVM_Andets(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             return that.Andets;
         }
-        private void set_41_MaterialeVM_Andets(object instance, object Value)
+        private void set_55_MaterialeVM_Andets(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             that.Andets = (global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_42_MaterialeVM_MaterialeCommand(object instance)
+        private object get_56_MaterialeVM_TilføjedeMaterialer(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
-            return that.MaterialeCommand;
+            return that.TilføjedeMaterialer;
         }
-        private void set_42_MaterialeVM_MaterialeCommand(object instance, object Value)
+        private void set_56_MaterialeVM_TilføjedeMaterialer(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
-            that.MaterialeCommand = (global::Eventmaker.Common.RelayCommand)Value;
+            that.TilføjedeMaterialer = (global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_43_MaterialeVM_SelIndex(object instance)
+        private object get_57_MaterialeVM_AddStenCommand(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            return that.AddStenCommand;
+        }
+        private void set_57_MaterialeVM_AddStenCommand(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            that.AddStenCommand = (global::Eventmaker.Common.RelayCommand)Value;
+        }
+        private object get_58_MaterialeVM_AddMetalCommand(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            return that.AddMetalCommand;
+        }
+        private void set_58_MaterialeVM_AddMetalCommand(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            that.AddMetalCommand = (global::Eventmaker.Common.RelayCommand)Value;
+        }
+        private object get_59_MaterialeVM_AddAndetCommand(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            return that.AddAndetCommand;
+        }
+        private void set_59_MaterialeVM_AddAndetCommand(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            that.AddAndetCommand = (global::Eventmaker.Common.RelayCommand)Value;
+        }
+        private object get_60_MaterialeVM_SelIndex(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             return that.SelIndex;
         }
-        private void set_43_MaterialeVM_SelIndex(object instance, object Value)
+        private void set_60_MaterialeVM_SelIndex(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
             that.SelIndex = (global::System.Int32)Value;
         }
-        private object get_44_OpretSkadeVM_facade(object instance)
+        private object get_61_MaterialeVM_SelIndexMetal(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            return that.SelIndexMetal;
+        }
+        private void set_61_MaterialeVM_SelIndexMetal(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            that.SelIndexMetal = (global::System.Int32)Value;
+        }
+        private object get_62_MaterialeVM_SelIndexAndet(object instance)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            return that.SelIndexAndet;
+        }
+        private void set_62_MaterialeVM_SelIndexAndet(object instance, object Value)
+        {
+            var that = (global::Gui_Eva.ViewModel.MaterialeVM)instance;
+            that.SelIndexAndet = (global::System.Int32)Value;
+        }
+        private object get_63_OpretSkadeVM_facade(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.facade;
         }
-        private void set_44_OpretSkadeVM_facade(object instance, object Value)
+        private void set_63_OpretSkadeVM_facade(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.facade = (global::Gui_Eva.ViewModel.Facade)Value;
         }
-        private object get_45_OpretSkadeVM_Skadebind(object instance)
+        private object get_64_OpretSkadeVM_Skadebind(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.Skadebind;
         }
-        private void set_45_OpretSkadeVM_Skadebind(object instance, object Value)
+        private void set_64_OpretSkadeVM_Skadebind(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.Skadebind = (global::Gui_Eva.Model.Skader)Value;
         }
-        private object get_46_OpretSkadeVM_Skade(object instance)
+        private object get_65_OpretSkadeVM_Skade(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.Skade;
         }
-        private void set_46_OpretSkadeVM_Skade(object instance, object Value)
+        private void set_65_OpretSkadeVM_Skade(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.Skade = (global::Gui_Eva.Model.Skader)Value;
         }
-        private object get_47_OpretSkadeVM_Frekvens(object instance)
+        private object get_66_OpretSkadeVM_Frekvens(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.Frekvens;
         }
-        private void set_47_OpretSkadeVM_Frekvens(object instance, object Value)
+        private void set_66_OpretSkadeVM_Frekvens(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.Frekvens = (global::System.Collections.Generic.List<global::System.Int32>)Value;
         }
-        private object get_48_OpretSkadeVM_Aktioner(object instance)
+        private object get_67_OpretSkadeVM_Aktioner(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.Aktioner;
         }
-        private void set_48_OpretSkadeVM_Aktioner(object instance, object Value)
+        private void set_67_OpretSkadeVM_Aktioner(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.Aktioner = (global::System.Collections.Generic.List<global::System.String>)Value;
         }
-        private object get_49_OpretSkadeVM_SelectedFrekvens(object instance)
+        private object get_68_OpretSkadeVM_SelectedFrekvens(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.SelectedFrekvens;
         }
-        private void set_49_OpretSkadeVM_SelectedFrekvens(object instance, object Value)
+        private void set_68_OpretSkadeVM_SelectedFrekvens(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.SelectedFrekvens = (global::System.Int32)Value;
         }
-        private object get_50_OpretSkadeVM_SelectedAktion(object instance)
+        private object get_69_OpretSkadeVM_SelectedAktion(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.SelectedAktion;
         }
-        private void set_50_OpretSkadeVM_SelectedAktion(object instance, object Value)
+        private void set_69_OpretSkadeVM_SelectedAktion(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.SelectedAktion = (global::System.String)Value;
         }
-        private object get_51_OpretSkadeVM_b(object instance)
+        private object get_70_OpretSkadeVM_b(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.b;
         }
-        private void set_51_OpretSkadeVM_b(object instance, object Value)
+        private void set_70_OpretSkadeVM_b(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.b = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Behandling>)Value;
         }
-        private object get_52_Behandling_BehandlingsType_ID(object instance)
+        private object get_71_Behandling_BehandlingsType_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.Behandling)instance;
             return that.BehandlingsType_ID;
         }
-        private void set_52_Behandling_BehandlingsType_ID(object instance, object Value)
+        private void set_71_Behandling_BehandlingsType_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.Behandling)instance;
             that.BehandlingsType_ID = (global::System.Int32)Value;
         }
-        private object get_53_Behandling_BehandlingsType_Navn(object instance)
+        private object get_72_Behandling_BehandlingsType_Navn(object instance)
         {
             var that = (global::Gui_Eva.Model.Behandling)instance;
             return that.BehandlingsType_Navn;
         }
-        private void set_53_Behandling_BehandlingsType_Navn(object instance, object Value)
+        private void set_72_Behandling_BehandlingsType_Navn(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.Behandling)instance;
             that.BehandlingsType_Navn = (global::System.String)Value;
         }
-        private object get_54_OpretSkadeVM_BehandlingB(object instance)
+        private object get_73_OpretSkadeVM_BehandlingB(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.BehandlingB;
         }
-        private void set_54_OpretSkadeVM_BehandlingB(object instance, object Value)
+        private void set_73_OpretSkadeVM_BehandlingB(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.BehandlingB = (global::Gui_Eva.Model.Behandling)Value;
         }
-        private object get_55_OpretSkadeVM_s(object instance)
+        private object get_74_OpretSkadeVM_s(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.s;
         }
-        private void set_55_OpretSkadeVM_s(object instance, object Value)
+        private void set_74_OpretSkadeVM_s(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.s = (global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadesTyper>)Value;
         }
-        private object get_56_SkadesTyper_SkadeType_ID(object instance)
+        private object get_75_SkadesTyper_SkadeType_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.SkadesTyper)instance;
             return that.SkadeType_ID;
         }
-        private void set_56_SkadesTyper_SkadeType_ID(object instance, object Value)
+        private void set_75_SkadesTyper_SkadeType_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.SkadesTyper)instance;
             that.SkadeType_ID = (global::System.Int32)Value;
         }
-        private object get_57_SkadesTyper_SkadeType_Navn(object instance)
+        private object get_76_SkadesTyper_SkadeType_Navn(object instance)
         {
             var that = (global::Gui_Eva.Model.SkadesTyper)instance;
             return that.SkadeType_Navn;
         }
-        private void set_57_SkadesTyper_SkadeType_Navn(object instance, object Value)
+        private void set_76_SkadesTyper_SkadeType_Navn(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.SkadesTyper)instance;
             that.SkadeType_Navn = (global::System.String)Value;
         }
-        private object get_58_OpretSkadeVM_SkadeTypeS(object instance)
+        private object get_77_OpretSkadeVM_SkadeTypeS(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.SkadeTypeS;
         }
-        private void set_58_OpretSkadeVM_SkadeTypeS(object instance, object Value)
+        private void set_77_OpretSkadeVM_SkadeTypeS(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.SkadeTypeS = (global::Gui_Eva.Model.SkadesTyper)Value;
         }
-        private object get_59_OpretSkadeVM_Behandlinger(object instance)
+        private object get_78_OpretSkadeVM_Behandlinger(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.Behandlinger;
         }
-        private void set_59_OpretSkadeVM_Behandlinger(object instance, object Value)
+        private void set_78_OpretSkadeVM_Behandlinger(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.Behandlinger = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Behandling>)Value;
         }
-        private object get_60_OpretSkadeVM_SkadesTyper(object instance)
+        private object get_79_OpretSkadeVM_SkadesTyper(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.SkadesTyper;
         }
-        private void set_60_OpretSkadeVM_SkadesTyper(object instance, object Value)
+        private void set_79_OpretSkadeVM_SkadesTyper(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.SkadesTyper = (global::System.Collections.Generic.List<global::Gui_Eva.Model.SkadesTyper>)Value;
         }
-        private object get_61_OpretSkadeVM_OpretSkadeCommand(object instance)
+        private object get_80_OpretSkadeVM_OpretSkadeCommand(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.OpretSkadeCommand;
         }
-        private void set_61_OpretSkadeVM_OpretSkadeCommand(object instance, object Value)
+        private void set_80_OpretSkadeVM_OpretSkadeCommand(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.OpretSkadeCommand = (global::Eventmaker.Common.RelayCommand)Value;
         }
-        private object get_62_OpretSkadeVM_TilføjskadetypeCommand(object instance)
+        private object get_81_OpretSkadeVM_TilføjskadetypeCommand(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.TilføjskadetypeCommand;
         }
-        private void set_62_OpretSkadeVM_TilføjskadetypeCommand(object instance, object Value)
+        private void set_81_OpretSkadeVM_TilføjskadetypeCommand(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.TilføjskadetypeCommand = (global::Eventmaker.Common.RelayCommand)Value;
         }
-        private object get_63_OpretSkadeVM_TilføjBehandlingCommand(object instance)
+        private object get_82_OpretSkadeVM_TilføjBehandlingCommand(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             return that.TilføjBehandlingCommand;
         }
-        private void set_63_OpretSkadeVM_TilføjBehandlingCommand(object instance, object Value)
+        private void set_82_OpretSkadeVM_TilføjBehandlingCommand(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretSkadeVM)instance;
             that.TilføjBehandlingCommand = (global::Eventmaker.Common.RelayCommand)Value;
         }
-        private object get_64_OpretStatueVM_NyStatue(object instance)
+        private object get_83_OpretStatueVM_NyStatue(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.NyStatue;
         }
-        private void set_64_OpretStatueVM_NyStatue(object instance, object Value)
+        private void set_83_OpretStatueVM_NyStatue(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.NyStatue = (global::Gui_Eva.Model.Statue)Value;
         }
-        private object get_65_OpretStatueVM_NystatueMat(object instance)
+        private object get_84_OpretStatueVM_NystatueMat(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.NystatueMat;
         }
-        private void set_65_OpretStatueVM_NystatueMat(object instance, object Value)
+        private void set_84_OpretStatueVM_NystatueMat(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.NystatueMat = (global::Gui_Eva.Model.StatueMateriale)Value;
         }
-        private object get_66_OpretStatueVM_Placerings(object instance)
+        private object get_85_OpretStatueVM_Placerings(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Placerings;
         }
-        private void set_66_OpretStatueVM_Placerings(object instance, object Value)
+        private void set_85_OpretStatueVM_Placerings(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Placerings = (global::System.Collections.Generic.List<global::System.String>)Value;
         }
-        private object get_67_OpretStatueVM_Statuetypes(object instance)
+        private object get_86_OpretStatueVM_Statuetypes(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Statuetypes;
         }
-        private void set_67_OpretStatueVM_Statuetypes(object instance, object Value)
+        private void set_86_OpretStatueVM_Statuetypes(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Statuetypes = (global::System.Collections.Generic.List<global::System.String>)Value;
         }
-        private object get_68_OpretStatueVM_StatueType(object instance)
+        private object get_87_OpretStatueVM_StatueType(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.StatueType;
         }
-        private void set_68_OpretStatueVM_StatueType(object instance, object Value)
+        private void set_87_OpretStatueVM_StatueType(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.StatueType = (global::System.Collections.Generic.List<global::Gui_Eva.Model.KategoriType>)Value;
         }
-        private object get_69_KategoriType_Type_ID(object instance)
+        private object get_88_KategoriType_Type_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.KategoriType)instance;
             return that.Type_ID;
         }
-        private void set_69_KategoriType_Type_ID(object instance, object Value)
+        private void set_88_KategoriType_Type_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.KategoriType)instance;
             that.Type_ID = (global::System.Int32)Value;
         }
-        private object get_70_KategoriType_Type_Navn(object instance)
+        private object get_89_KategoriType_Type_Navn(object instance)
         {
             var that = (global::Gui_Eva.Model.KategoriType)instance;
             return that.Type_Navn;
         }
-        private void set_70_KategoriType_Type_Navn(object instance, object Value)
+        private void set_89_KategoriType_Type_Navn(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.KategoriType)instance;
             that.Type_Navn = (global::System.String)Value;
         }
-        private object get_71_KategoriType_StatueType(object instance)
+        private object get_90_KategoriType_StatueType(object instance)
         {
             var that = (global::Gui_Eva.Model.KategoriType)instance;
             return that.StatueType;
         }
-        private void set_71_KategoriType_StatueType(object instance, object Value)
+        private void set_90_KategoriType_StatueType(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.KategoriType)instance;
             that.StatueType = (global::System.Collections.Generic.ICollection<global::Gui_Eva.Model.StatueType>)Value;
         }
-        private object get_72_StatueType_Type_ID(object instance)
+        private object get_91_StatueType_Type_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueType)instance;
             return that.Type_ID;
         }
-        private void set_72_StatueType_Type_ID(object instance, object Value)
+        private void set_91_StatueType_Type_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueType)instance;
             that.Type_ID = (global::System.Int32)Value;
         }
-        private object get_73_StatueType_Statue_ID(object instance)
+        private object get_92_StatueType_Statue_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueType)instance;
             return that.Statue_ID;
         }
-        private void set_73_StatueType_Statue_ID(object instance, object Value)
+        private void set_92_StatueType_Statue_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueType)instance;
             that.Statue_ID = (global::System.Int32)Value;
         }
-        private object get_74_StatueType_ID(object instance)
+        private object get_93_StatueType_ID(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueType)instance;
             return that.ID;
         }
-        private void set_74_StatueType_ID(object instance, object Value)
+        private void set_93_StatueType_ID(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueType)instance;
             that.ID = (global::System.Int32)Value;
         }
-        private object get_75_StatueType_Statue(object instance)
+        private object get_94_StatueType_Statue(object instance)
         {
             var that = (global::Gui_Eva.Model.StatueType)instance;
             return that.Statue;
         }
-        private void set_75_StatueType_Statue(object instance, object Value)
+        private void set_94_StatueType_Statue(object instance, object Value)
         {
             var that = (global::Gui_Eva.Model.StatueType)instance;
             that.Statue = (global::Gui_Eva.Model.Statue)Value;
         }
-        private object get_76_OpretStatueVM_StatType(object instance)
+        private object get_95_OpretStatueVM_StatType(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.StatType;
         }
-        private void set_76_OpretStatueVM_StatType(object instance, object Value)
+        private void set_95_OpretStatueVM_StatType(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.StatType = (global::System.Collections.Generic.List<global::Gui_Eva.Model.KategoriType>)Value;
         }
-        private object get_77_OpretStatueVM_NyKategoriType(object instance)
+        private object get_96_OpretStatueVM_NyKategoriType(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.NyKategoriType;
         }
-        private void set_77_OpretStatueVM_NyKategoriType(object instance, object Value)
+        private void set_96_OpretStatueVM_NyKategoriType(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.NyKategoriType = (global::Gui_Eva.Model.KategoriType)Value;
         }
-        private object get_78_OpretStatueVM_StaType(object instance)
+        private object get_97_OpretStatueVM_StaType(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.StaType;
         }
-        private void set_78_OpretStatueVM_StaType(object instance, object Value)
+        private void set_97_OpretStatueVM_StaType(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.StaType = (global::Gui_Eva.Model.StatueType)Value;
         }
-        private object get_79_OpretStatueVM_Sten(object instance)
+        private object get_98_OpretStatueVM_Sten(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Sten;
         }
-        private void set_79_OpretStatueVM_Sten(object instance, object Value)
+        private void set_98_OpretStatueVM_Sten(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Sten = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_80_OpretStatueVM_Stens(object instance)
+        private object get_99_OpretStatueVM_Stens(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Stens;
         }
-        private void set_80_OpretStatueVM_Stens(object instance, object Value)
+        private void set_99_OpretStatueVM_Stens(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Stens = (global::System.Collections.ObjectModel.ObservableCollection<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_81_OpretStatueVM_Metal(object instance)
+        private object get_100_OpretStatueVM_Metal(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Metal;
         }
-        private void set_81_OpretStatueVM_Metal(object instance, object Value)
+        private void set_100_OpretStatueVM_Metal(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Metal = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_82_OpretStatueVM_Andet(object instance)
+        private object get_101_OpretStatueVM_Andet(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Andet;
         }
-        private void set_82_OpretStatueVM_Andet(object instance, object Value)
+        private void set_101_OpretStatueVM_Andet(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Andet = (global::System.Collections.Generic.List<global::Gui_Eva.Model.Materiale>)Value;
         }
-        private object get_83_OpretStatueVM_facade(object instance)
+        private object get_102_OpretStatueVM_facade(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.facade;
         }
-        private void set_83_OpretStatueVM_facade(object instance, object Value)
+        private void set_102_OpretStatueVM_facade(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.facade = (global::Gui_Eva.ViewModel.Facade)Value;
         }
-        private object get_84_OpretStatueVM_Selindex(object instance)
+        private object get_103_OpretStatueVM_Selindex(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Selindex;
         }
-        private void set_84_OpretStatueVM_Selindex(object instance, object Value)
+        private void set_103_OpretStatueVM_Selindex(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Selindex = (global::System.Int32)Value;
         }
-        private object get_85_OpretStatueVM_OpretCommand(object instance)
+        private object get_104_OpretStatueVM_OpretCommand(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.OpretCommand;
         }
-        private void set_85_OpretStatueVM_OpretCommand(object instance, object Value)
+        private void set_104_OpretStatueVM_OpretCommand(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.OpretCommand = (global::Eventmaker.Common.RelayCommand)Value;
         }
-        private object get_86_OpretStatueVM_AddTypeCommand(object instance)
+        private object get_105_OpretStatueVM_AddTypeCommand(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.AddTypeCommand;
         }
-        private void set_86_OpretStatueVM_AddTypeCommand(object instance, object Value)
+        private void set_105_OpretStatueVM_AddTypeCommand(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.AddTypeCommand = (global::Eventmaker.Common.RelayCommand)Value;
         }
-        private object get_87_OpretStatueVM_LocationBind(object instance)
+        private object get_106_OpretStatueVM_LocationBind(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.LocationBind;
         }
-        private void set_87_OpretStatueVM_LocationBind(object instance, object Value)
+        private void set_106_OpretStatueVM_LocationBind(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.LocationBind = (global::System.String)Value;
         }
-        private object get_88_OpretStatueVM_Placeringbind(object instance)
+        private object get_107_OpretStatueVM_Placeringbind(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Placeringbind;
         }
-        private void set_88_OpretStatueVM_Placeringbind(object instance, object Value)
+        private void set_107_OpretStatueVM_Placeringbind(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Placeringbind = (global::System.String)Value;
         }
-        private object get_89_OpretStatueVM_Typebind(object instance)
+        private object get_108_OpretStatueVM_Typebind(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.Typebind;
         }
-        private void set_89_OpretStatueVM_Typebind(object instance, object Value)
+        private void set_108_OpretStatueVM_Typebind(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.Typebind = (global::System.String)Value;
         }
-        private object get_90_OpretStatueVM_statueindex(object instance)
+        private object get_109_OpretStatueVM_statueindex(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.statueindex;
         }
-        private void set_90_OpretStatueVM_statueindex(object instance, object Value)
+        private void set_109_OpretStatueVM_statueindex(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.statueindex = (global::System.Int32)Value;
         }
-        private object get_91_OpretStatueVM_placeringsindex(object instance)
+        private object get_110_OpretStatueVM_placeringsindex(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.placeringsindex;
         }
-        private void set_91_OpretStatueVM_placeringsindex(object instance, object Value)
+        private void set_110_OpretStatueVM_placeringsindex(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.placeringsindex = (global::System.Int32)Value;
         }
-        private object get_92_OpretStatueVM_SelIndex(object instance)
+        private object get_111_OpretStatueVM_SelIndex(object instance)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             return that.SelIndex;
         }
-        private void set_92_OpretStatueVM_SelIndex(object instance, object Value)
+        private void set_111_OpretStatueVM_SelIndex(object instance, object Value)
         {
             var that = (global::Gui_Eva.ViewModel.OpretStatueVM)instance;
             that.SelIndex = (global::System.Int32)Value;
@@ -1939,407 +2226,521 @@ namespace Gui_Eva.Gui_Eva_XamlTypeInfo
                 xamlMember.Getter = get_25_InvokeCommandAction_InputConverterLanguage;
                 xamlMember.Setter = set_25_InvokeCommandAction_InputConverterLanguage;
                 break;
+            case "Gui_Eva.ViewModel.FindSkade.facade":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.FindSkade");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "facade", "Gui_Eva.ViewModel.Facade");
+                xamlMember.Getter = get_26_FindSkade_facade;
+                xamlMember.Setter = set_26_FindSkade_facade;
+                break;
+            case "Gui_Eva.ViewModel.FindSkade.SkadeInfo":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.FindSkade");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SkadeInfo", "System.Collections.Generic.List`1<Gui_Eva.Model.SkadeInfoDTO>");
+                xamlMember.Getter = get_27_FindSkade_SkadeInfo;
+                xamlMember.Setter = set_27_FindSkade_SkadeInfo;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.SkadeID":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SkadeID", "Int32");
+                xamlMember.Getter = get_28_SkadeInfoDTO_SkadeID;
+                xamlMember.Setter = set_28_SkadeInfoDTO_SkadeID;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.StatueID":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "StatueID", "Int32");
+                xamlMember.Getter = get_29_SkadeInfoDTO_StatueID;
+                xamlMember.Setter = set_29_SkadeInfoDTO_StatueID;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.Pris":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Pris", "Int32");
+                xamlMember.Getter = get_30_SkadeInfoDTO_Pris;
+                xamlMember.Setter = set_30_SkadeInfoDTO_Pris;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.Anbefalinger":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Anbefalinger", "String");
+                xamlMember.Getter = get_31_SkadeInfoDTO_Anbefalinger;
+                xamlMember.Setter = set_31_SkadeInfoDTO_Anbefalinger;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.Noter":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Noter", "String");
+                xamlMember.Getter = get_32_SkadeInfoDTO_Noter;
+                xamlMember.Setter = set_32_SkadeInfoDTO_Noter;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.BehandlingsAktion":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "BehandlingsAktion", "String");
+                xamlMember.Getter = get_33_SkadeInfoDTO_BehandlingsAktion;
+                xamlMember.Setter = set_33_SkadeInfoDTO_BehandlingsAktion;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.BehandlingsFrekvens":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "BehandlingsFrekvens", "String");
+                xamlMember.Getter = get_34_SkadeInfoDTO_BehandlingsFrekvens;
+                xamlMember.Setter = set_34_SkadeInfoDTO_BehandlingsFrekvens;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.SkadeType":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SkadeType", "String");
+                xamlMember.Getter = get_35_SkadeInfoDTO_SkadeType;
+                xamlMember.Setter = set_35_SkadeInfoDTO_SkadeType;
+                break;
+            case "Gui_Eva.Model.SkadeInfoDTO.SkadeBehandling":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadeInfoDTO");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SkadeBehandling", "String");
+                xamlMember.Getter = get_36_SkadeInfoDTO_SkadeBehandling;
+                xamlMember.Setter = set_36_SkadeInfoDTO_SkadeBehandling;
+                break;
+            case "Gui_Eva.ViewModel.FindSkade.ObservableSkadeInfo":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.FindSkade");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "ObservableSkadeInfo", "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.SkadeInfoDTO>");
+                xamlMember.Getter = get_37_FindSkade_ObservableSkadeInfo;
+                xamlMember.Setter = set_37_FindSkade_ObservableSkadeInfo;
+                break;
+            case "Gui_Eva.ViewModel.FindSkade.id":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.FindSkade");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "id", "Int32");
+                xamlMember.Getter = get_38_FindSkade_id;
+                xamlMember.Setter = set_38_FindSkade_id;
+                break;
+            case "Gui_Eva.ViewModel.FindSkade.HentinfoCommand":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.FindSkade");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "HentinfoCommand", "Eventmaker.Common.RelayCommand");
+                xamlMember.Getter = get_39_FindSkade_HentinfoCommand;
+                xamlMember.Setter = set_39_FindSkade_HentinfoCommand;
+                break;
             case "Gui_Eva.ViewModel.MaterialeVM.facade":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "facade", "Gui_Eva.ViewModel.Facade");
-                xamlMember.Getter = get_26_MaterialeVM_facade;
-                xamlMember.Setter = set_26_MaterialeVM_facade;
+                xamlMember.Getter = get_40_MaterialeVM_facade;
+                xamlMember.Setter = set_40_MaterialeVM_facade;
                 break;
             case "Gui_Eva.ViewModel.MaterialeVM.Sten":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Sten", "System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_27_MaterialeVM_Sten;
-                xamlMember.Setter = set_27_MaterialeVM_Sten;
+                xamlMember.Getter = get_41_MaterialeVM_Sten;
+                xamlMember.Setter = set_41_MaterialeVM_Sten;
                 break;
             case "Gui_Eva.Model.Materiale.Materiale_ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.Materiale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Materiale_ID", "Int32");
-                xamlMember.Getter = get_28_Materiale_Materiale_ID;
-                xamlMember.Setter = set_28_Materiale_Materiale_ID;
+                xamlMember.Getter = get_42_Materiale_Materiale_ID;
+                xamlMember.Setter = set_42_Materiale_Materiale_ID;
                 break;
             case "Gui_Eva.Model.Materiale.Materiale_Navn":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.Materiale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Materiale_Navn", "String");
-                xamlMember.Getter = get_29_Materiale_Materiale_Navn;
-                xamlMember.Setter = set_29_Materiale_Materiale_Navn;
+                xamlMember.Getter = get_43_Materiale_Materiale_Navn;
+                xamlMember.Setter = set_43_Materiale_Materiale_Navn;
                 break;
             case "Gui_Eva.Model.Materiale.Materiale_Type":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.Materiale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Materiale_Type", "String");
-                xamlMember.Getter = get_30_Materiale_Materiale_Type;
-                xamlMember.Setter = set_30_Materiale_Materiale_Type;
+                xamlMember.Getter = get_44_Materiale_Materiale_Type;
+                xamlMember.Setter = set_44_Materiale_Materiale_Type;
                 break;
             case "Gui_Eva.Model.Materiale.StatueMateriale":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.Materiale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "StatueMateriale", "System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueMateriale>");
-                xamlMember.Getter = get_31_Materiale_StatueMateriale;
-                xamlMember.Setter = set_31_Materiale_StatueMateriale;
+                xamlMember.Getter = get_45_Materiale_StatueMateriale;
+                xamlMember.Setter = set_45_Materiale_StatueMateriale;
                 break;
             case "Gui_Eva.Model.StatueMateriale.Materiale_ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueMateriale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Materiale_ID", "Int32");
-                xamlMember.Getter = get_32_StatueMateriale_Materiale_ID;
-                xamlMember.Setter = set_32_StatueMateriale_Materiale_ID;
+                xamlMember.Getter = get_46_StatueMateriale_Materiale_ID;
+                xamlMember.Setter = set_46_StatueMateriale_Materiale_ID;
                 break;
             case "Gui_Eva.Model.StatueMateriale.Statue_ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueMateriale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Statue_ID", "Int32");
-                xamlMember.Getter = get_33_StatueMateriale_Statue_ID;
-                xamlMember.Setter = set_33_StatueMateriale_Statue_ID;
+                xamlMember.Getter = get_47_StatueMateriale_Statue_ID;
+                xamlMember.Setter = set_47_StatueMateriale_Statue_ID;
                 break;
             case "Gui_Eva.Model.StatueMateriale.ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueMateriale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "ID", "Int32");
-                xamlMember.Getter = get_34_StatueMateriale_ID;
-                xamlMember.Setter = set_34_StatueMateriale_ID;
+                xamlMember.Getter = get_48_StatueMateriale_ID;
+                xamlMember.Setter = set_48_StatueMateriale_ID;
                 break;
             case "Gui_Eva.Model.StatueMateriale.Materiale":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueMateriale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Materiale", "Gui_Eva.Model.Materiale");
-                xamlMember.Getter = get_35_StatueMateriale_Materiale;
-                xamlMember.Setter = set_35_StatueMateriale_Materiale;
+                xamlMember.Getter = get_49_StatueMateriale_Materiale;
+                xamlMember.Setter = set_49_StatueMateriale_Materiale;
                 break;
             case "Gui_Eva.Model.StatueMateriale.Statue":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueMateriale");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Statue", "Gui_Eva.Model.Statue");
-                xamlMember.Getter = get_36_StatueMateriale_Statue;
-                xamlMember.Setter = set_36_StatueMateriale_Statue;
+                xamlMember.Getter = get_50_StatueMateriale_Statue;
+                xamlMember.Setter = set_50_StatueMateriale_Statue;
                 break;
             case "Gui_Eva.ViewModel.MaterialeVM.Metal":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Metal", "System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_37_MaterialeVM_Metal;
-                xamlMember.Setter = set_37_MaterialeVM_Metal;
+                xamlMember.Getter = get_51_MaterialeVM_Metal;
+                xamlMember.Setter = set_51_MaterialeVM_Metal;
                 break;
             case "Gui_Eva.ViewModel.MaterialeVM.Andet":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Andet", "System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_38_MaterialeVM_Andet;
-                xamlMember.Setter = set_38_MaterialeVM_Andet;
+                xamlMember.Getter = get_52_MaterialeVM_Andet;
+                xamlMember.Setter = set_52_MaterialeVM_Andet;
                 break;
             case "Gui_Eva.ViewModel.MaterialeVM.Stens":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Stens", "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_39_MaterialeVM_Stens;
-                xamlMember.Setter = set_39_MaterialeVM_Stens;
+                xamlMember.Getter = get_53_MaterialeVM_Stens;
+                xamlMember.Setter = set_53_MaterialeVM_Stens;
                 break;
             case "Gui_Eva.ViewModel.MaterialeVM.Metals":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Metals", "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_40_MaterialeVM_Metals;
-                xamlMember.Setter = set_40_MaterialeVM_Metals;
+                xamlMember.Getter = get_54_MaterialeVM_Metals;
+                xamlMember.Setter = set_54_MaterialeVM_Metals;
                 break;
             case "Gui_Eva.ViewModel.MaterialeVM.Andets":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Andets", "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_41_MaterialeVM_Andets;
-                xamlMember.Setter = set_41_MaterialeVM_Andets;
+                xamlMember.Getter = get_55_MaterialeVM_Andets;
+                xamlMember.Setter = set_55_MaterialeVM_Andets;
                 break;
-            case "Gui_Eva.ViewModel.MaterialeVM.MaterialeCommand":
+            case "Gui_Eva.ViewModel.MaterialeVM.TilføjedeMaterialer":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
-                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "MaterialeCommand", "Eventmaker.Common.RelayCommand");
-                xamlMember.Getter = get_42_MaterialeVM_MaterialeCommand;
-                xamlMember.Setter = set_42_MaterialeVM_MaterialeCommand;
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "TilføjedeMaterialer", "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>");
+                xamlMember.Getter = get_56_MaterialeVM_TilføjedeMaterialer;
+                xamlMember.Setter = set_56_MaterialeVM_TilføjedeMaterialer;
+                break;
+            case "Gui_Eva.ViewModel.MaterialeVM.AddStenCommand":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "AddStenCommand", "Eventmaker.Common.RelayCommand");
+                xamlMember.Getter = get_57_MaterialeVM_AddStenCommand;
+                xamlMember.Setter = set_57_MaterialeVM_AddStenCommand;
+                break;
+            case "Gui_Eva.ViewModel.MaterialeVM.AddMetalCommand":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "AddMetalCommand", "Eventmaker.Common.RelayCommand");
+                xamlMember.Getter = get_58_MaterialeVM_AddMetalCommand;
+                xamlMember.Setter = set_58_MaterialeVM_AddMetalCommand;
+                break;
+            case "Gui_Eva.ViewModel.MaterialeVM.AddAndetCommand":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "AddAndetCommand", "Eventmaker.Common.RelayCommand");
+                xamlMember.Getter = get_59_MaterialeVM_AddAndetCommand;
+                xamlMember.Setter = set_59_MaterialeVM_AddAndetCommand;
                 break;
             case "Gui_Eva.ViewModel.MaterialeVM.SelIndex":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SelIndex", "Int32");
-                xamlMember.Getter = get_43_MaterialeVM_SelIndex;
-                xamlMember.Setter = set_43_MaterialeVM_SelIndex;
+                xamlMember.Getter = get_60_MaterialeVM_SelIndex;
+                xamlMember.Setter = set_60_MaterialeVM_SelIndex;
+                break;
+            case "Gui_Eva.ViewModel.MaterialeVM.SelIndexMetal":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SelIndexMetal", "Int32");
+                xamlMember.Getter = get_61_MaterialeVM_SelIndexMetal;
+                xamlMember.Setter = set_61_MaterialeVM_SelIndexMetal;
+                break;
+            case "Gui_Eva.ViewModel.MaterialeVM.SelIndexAndet":
+                userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.MaterialeVM");
+                xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SelIndexAndet", "Int32");
+                xamlMember.Getter = get_62_MaterialeVM_SelIndexAndet;
+                xamlMember.Setter = set_62_MaterialeVM_SelIndexAndet;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.facade":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "facade", "Gui_Eva.ViewModel.Facade");
-                xamlMember.Getter = get_44_OpretSkadeVM_facade;
-                xamlMember.Setter = set_44_OpretSkadeVM_facade;
+                xamlMember.Getter = get_63_OpretSkadeVM_facade;
+                xamlMember.Setter = set_63_OpretSkadeVM_facade;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.Skadebind":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Skadebind", "Gui_Eva.Model.Skader");
-                xamlMember.Getter = get_45_OpretSkadeVM_Skadebind;
-                xamlMember.Setter = set_45_OpretSkadeVM_Skadebind;
+                xamlMember.Getter = get_64_OpretSkadeVM_Skadebind;
+                xamlMember.Setter = set_64_OpretSkadeVM_Skadebind;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.Skade":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Skade", "Gui_Eva.Model.Skader");
-                xamlMember.Getter = get_46_OpretSkadeVM_Skade;
-                xamlMember.Setter = set_46_OpretSkadeVM_Skade;
+                xamlMember.Getter = get_65_OpretSkadeVM_Skade;
+                xamlMember.Setter = set_65_OpretSkadeVM_Skade;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.Frekvens":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Frekvens", "System.Collections.Generic.List`1<Int32>");
-                xamlMember.Getter = get_47_OpretSkadeVM_Frekvens;
-                xamlMember.Setter = set_47_OpretSkadeVM_Frekvens;
+                xamlMember.Getter = get_66_OpretSkadeVM_Frekvens;
+                xamlMember.Setter = set_66_OpretSkadeVM_Frekvens;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.Aktioner":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Aktioner", "System.Collections.Generic.List`1<String>");
-                xamlMember.Getter = get_48_OpretSkadeVM_Aktioner;
-                xamlMember.Setter = set_48_OpretSkadeVM_Aktioner;
+                xamlMember.Getter = get_67_OpretSkadeVM_Aktioner;
+                xamlMember.Setter = set_67_OpretSkadeVM_Aktioner;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.SelectedFrekvens":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SelectedFrekvens", "Int32");
-                xamlMember.Getter = get_49_OpretSkadeVM_SelectedFrekvens;
-                xamlMember.Setter = set_49_OpretSkadeVM_SelectedFrekvens;
+                xamlMember.Getter = get_68_OpretSkadeVM_SelectedFrekvens;
+                xamlMember.Setter = set_68_OpretSkadeVM_SelectedFrekvens;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.SelectedAktion":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SelectedAktion", "String");
-                xamlMember.Getter = get_50_OpretSkadeVM_SelectedAktion;
-                xamlMember.Setter = set_50_OpretSkadeVM_SelectedAktion;
+                xamlMember.Getter = get_69_OpretSkadeVM_SelectedAktion;
+                xamlMember.Setter = set_69_OpretSkadeVM_SelectedAktion;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.b":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "b", "System.Collections.Generic.List`1<Gui_Eva.Model.Behandling>");
-                xamlMember.Getter = get_51_OpretSkadeVM_b;
-                xamlMember.Setter = set_51_OpretSkadeVM_b;
+                xamlMember.Getter = get_70_OpretSkadeVM_b;
+                xamlMember.Setter = set_70_OpretSkadeVM_b;
                 break;
             case "Gui_Eva.Model.Behandling.BehandlingsType_ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.Behandling");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "BehandlingsType_ID", "Int32");
-                xamlMember.Getter = get_52_Behandling_BehandlingsType_ID;
-                xamlMember.Setter = set_52_Behandling_BehandlingsType_ID;
+                xamlMember.Getter = get_71_Behandling_BehandlingsType_ID;
+                xamlMember.Setter = set_71_Behandling_BehandlingsType_ID;
                 break;
             case "Gui_Eva.Model.Behandling.BehandlingsType_Navn":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.Behandling");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "BehandlingsType_Navn", "String");
-                xamlMember.Getter = get_53_Behandling_BehandlingsType_Navn;
-                xamlMember.Setter = set_53_Behandling_BehandlingsType_Navn;
+                xamlMember.Getter = get_72_Behandling_BehandlingsType_Navn;
+                xamlMember.Setter = set_72_Behandling_BehandlingsType_Navn;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.BehandlingB":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "BehandlingB", "Gui_Eva.Model.Behandling");
-                xamlMember.Getter = get_54_OpretSkadeVM_BehandlingB;
-                xamlMember.Setter = set_54_OpretSkadeVM_BehandlingB;
+                xamlMember.Getter = get_73_OpretSkadeVM_BehandlingB;
+                xamlMember.Setter = set_73_OpretSkadeVM_BehandlingB;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.s":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "s", "System.Collections.Generic.List`1<Gui_Eva.Model.SkadesTyper>");
-                xamlMember.Getter = get_55_OpretSkadeVM_s;
-                xamlMember.Setter = set_55_OpretSkadeVM_s;
+                xamlMember.Getter = get_74_OpretSkadeVM_s;
+                xamlMember.Setter = set_74_OpretSkadeVM_s;
                 break;
             case "Gui_Eva.Model.SkadesTyper.SkadeType_ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadesTyper");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SkadeType_ID", "Int32");
-                xamlMember.Getter = get_56_SkadesTyper_SkadeType_ID;
-                xamlMember.Setter = set_56_SkadesTyper_SkadeType_ID;
+                xamlMember.Getter = get_75_SkadesTyper_SkadeType_ID;
+                xamlMember.Setter = set_75_SkadesTyper_SkadeType_ID;
                 break;
             case "Gui_Eva.Model.SkadesTyper.SkadeType_Navn":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.SkadesTyper");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SkadeType_Navn", "String");
-                xamlMember.Getter = get_57_SkadesTyper_SkadeType_Navn;
-                xamlMember.Setter = set_57_SkadesTyper_SkadeType_Navn;
+                xamlMember.Getter = get_76_SkadesTyper_SkadeType_Navn;
+                xamlMember.Setter = set_76_SkadesTyper_SkadeType_Navn;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.SkadeTypeS":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SkadeTypeS", "Gui_Eva.Model.SkadesTyper");
-                xamlMember.Getter = get_58_OpretSkadeVM_SkadeTypeS;
-                xamlMember.Setter = set_58_OpretSkadeVM_SkadeTypeS;
+                xamlMember.Getter = get_77_OpretSkadeVM_SkadeTypeS;
+                xamlMember.Setter = set_77_OpretSkadeVM_SkadeTypeS;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.Behandlinger":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Behandlinger", "System.Collections.Generic.List`1<Gui_Eva.Model.Behandling>");
-                xamlMember.Getter = get_59_OpretSkadeVM_Behandlinger;
-                xamlMember.Setter = set_59_OpretSkadeVM_Behandlinger;
+                xamlMember.Getter = get_78_OpretSkadeVM_Behandlinger;
+                xamlMember.Setter = set_78_OpretSkadeVM_Behandlinger;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.SkadesTyper":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SkadesTyper", "System.Collections.Generic.List`1<Gui_Eva.Model.SkadesTyper>");
-                xamlMember.Getter = get_60_OpretSkadeVM_SkadesTyper;
-                xamlMember.Setter = set_60_OpretSkadeVM_SkadesTyper;
+                xamlMember.Getter = get_79_OpretSkadeVM_SkadesTyper;
+                xamlMember.Setter = set_79_OpretSkadeVM_SkadesTyper;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.OpretSkadeCommand":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "OpretSkadeCommand", "Eventmaker.Common.RelayCommand");
-                xamlMember.Getter = get_61_OpretSkadeVM_OpretSkadeCommand;
-                xamlMember.Setter = set_61_OpretSkadeVM_OpretSkadeCommand;
+                xamlMember.Getter = get_80_OpretSkadeVM_OpretSkadeCommand;
+                xamlMember.Setter = set_80_OpretSkadeVM_OpretSkadeCommand;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.TilføjskadetypeCommand":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "TilføjskadetypeCommand", "Eventmaker.Common.RelayCommand");
-                xamlMember.Getter = get_62_OpretSkadeVM_TilføjskadetypeCommand;
-                xamlMember.Setter = set_62_OpretSkadeVM_TilføjskadetypeCommand;
+                xamlMember.Getter = get_81_OpretSkadeVM_TilføjskadetypeCommand;
+                xamlMember.Setter = set_81_OpretSkadeVM_TilføjskadetypeCommand;
                 break;
             case "Gui_Eva.ViewModel.OpretSkadeVM.TilføjBehandlingCommand":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretSkadeVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "TilføjBehandlingCommand", "Eventmaker.Common.RelayCommand");
-                xamlMember.Getter = get_63_OpretSkadeVM_TilføjBehandlingCommand;
-                xamlMember.Setter = set_63_OpretSkadeVM_TilføjBehandlingCommand;
+                xamlMember.Getter = get_82_OpretSkadeVM_TilføjBehandlingCommand;
+                xamlMember.Setter = set_82_OpretSkadeVM_TilføjBehandlingCommand;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.NyStatue":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "NyStatue", "Gui_Eva.Model.Statue");
-                xamlMember.Getter = get_64_OpretStatueVM_NyStatue;
-                xamlMember.Setter = set_64_OpretStatueVM_NyStatue;
+                xamlMember.Getter = get_83_OpretStatueVM_NyStatue;
+                xamlMember.Setter = set_83_OpretStatueVM_NyStatue;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.NystatueMat":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "NystatueMat", "Gui_Eva.Model.StatueMateriale");
-                xamlMember.Getter = get_65_OpretStatueVM_NystatueMat;
-                xamlMember.Setter = set_65_OpretStatueVM_NystatueMat;
+                xamlMember.Getter = get_84_OpretStatueVM_NystatueMat;
+                xamlMember.Setter = set_84_OpretStatueVM_NystatueMat;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Placerings":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Placerings", "System.Collections.Generic.List`1<String>");
-                xamlMember.Getter = get_66_OpretStatueVM_Placerings;
-                xamlMember.Setter = set_66_OpretStatueVM_Placerings;
+                xamlMember.Getter = get_85_OpretStatueVM_Placerings;
+                xamlMember.Setter = set_85_OpretStatueVM_Placerings;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Statuetypes":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Statuetypes", "System.Collections.Generic.List`1<String>");
-                xamlMember.Getter = get_67_OpretStatueVM_Statuetypes;
-                xamlMember.Setter = set_67_OpretStatueVM_Statuetypes;
+                xamlMember.Getter = get_86_OpretStatueVM_Statuetypes;
+                xamlMember.Setter = set_86_OpretStatueVM_Statuetypes;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.StatueType":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "StatueType", "System.Collections.Generic.List`1<Gui_Eva.Model.KategoriType>");
-                xamlMember.Getter = get_68_OpretStatueVM_StatueType;
-                xamlMember.Setter = set_68_OpretStatueVM_StatueType;
+                xamlMember.Getter = get_87_OpretStatueVM_StatueType;
+                xamlMember.Setter = set_87_OpretStatueVM_StatueType;
                 break;
             case "Gui_Eva.Model.KategoriType.Type_ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.KategoriType");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Type_ID", "Int32");
-                xamlMember.Getter = get_69_KategoriType_Type_ID;
-                xamlMember.Setter = set_69_KategoriType_Type_ID;
+                xamlMember.Getter = get_88_KategoriType_Type_ID;
+                xamlMember.Setter = set_88_KategoriType_Type_ID;
                 break;
             case "Gui_Eva.Model.KategoriType.Type_Navn":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.KategoriType");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Type_Navn", "String");
-                xamlMember.Getter = get_70_KategoriType_Type_Navn;
-                xamlMember.Setter = set_70_KategoriType_Type_Navn;
+                xamlMember.Getter = get_89_KategoriType_Type_Navn;
+                xamlMember.Setter = set_89_KategoriType_Type_Navn;
                 break;
             case "Gui_Eva.Model.KategoriType.StatueType":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.KategoriType");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "StatueType", "System.Collections.Generic.ICollection`1<Gui_Eva.Model.StatueType>");
-                xamlMember.Getter = get_71_KategoriType_StatueType;
-                xamlMember.Setter = set_71_KategoriType_StatueType;
+                xamlMember.Getter = get_90_KategoriType_StatueType;
+                xamlMember.Setter = set_90_KategoriType_StatueType;
                 break;
             case "Gui_Eva.Model.StatueType.Type_ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueType");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Type_ID", "Int32");
-                xamlMember.Getter = get_72_StatueType_Type_ID;
-                xamlMember.Setter = set_72_StatueType_Type_ID;
+                xamlMember.Getter = get_91_StatueType_Type_ID;
+                xamlMember.Setter = set_91_StatueType_Type_ID;
                 break;
             case "Gui_Eva.Model.StatueType.Statue_ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueType");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Statue_ID", "Int32");
-                xamlMember.Getter = get_73_StatueType_Statue_ID;
-                xamlMember.Setter = set_73_StatueType_Statue_ID;
+                xamlMember.Getter = get_92_StatueType_Statue_ID;
+                xamlMember.Setter = set_92_StatueType_Statue_ID;
                 break;
             case "Gui_Eva.Model.StatueType.ID":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueType");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "ID", "Int32");
-                xamlMember.Getter = get_74_StatueType_ID;
-                xamlMember.Setter = set_74_StatueType_ID;
+                xamlMember.Getter = get_93_StatueType_ID;
+                xamlMember.Setter = set_93_StatueType_ID;
                 break;
             case "Gui_Eva.Model.StatueType.Statue":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.Model.StatueType");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Statue", "Gui_Eva.Model.Statue");
-                xamlMember.Getter = get_75_StatueType_Statue;
-                xamlMember.Setter = set_75_StatueType_Statue;
+                xamlMember.Getter = get_94_StatueType_Statue;
+                xamlMember.Setter = set_94_StatueType_Statue;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.StatType":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "StatType", "System.Collections.Generic.List`1<Gui_Eva.Model.KategoriType>");
-                xamlMember.Getter = get_76_OpretStatueVM_StatType;
-                xamlMember.Setter = set_76_OpretStatueVM_StatType;
+                xamlMember.Getter = get_95_OpretStatueVM_StatType;
+                xamlMember.Setter = set_95_OpretStatueVM_StatType;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.NyKategoriType":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "NyKategoriType", "Gui_Eva.Model.KategoriType");
-                xamlMember.Getter = get_77_OpretStatueVM_NyKategoriType;
-                xamlMember.Setter = set_77_OpretStatueVM_NyKategoriType;
+                xamlMember.Getter = get_96_OpretStatueVM_NyKategoriType;
+                xamlMember.Setter = set_96_OpretStatueVM_NyKategoriType;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.StaType":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "StaType", "Gui_Eva.Model.StatueType");
-                xamlMember.Getter = get_78_OpretStatueVM_StaType;
-                xamlMember.Setter = set_78_OpretStatueVM_StaType;
+                xamlMember.Getter = get_97_OpretStatueVM_StaType;
+                xamlMember.Setter = set_97_OpretStatueVM_StaType;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Sten":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Sten", "System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_79_OpretStatueVM_Sten;
-                xamlMember.Setter = set_79_OpretStatueVM_Sten;
+                xamlMember.Getter = get_98_OpretStatueVM_Sten;
+                xamlMember.Setter = set_98_OpretStatueVM_Sten;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Stens":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Stens", "System.Collections.ObjectModel.ObservableCollection`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_80_OpretStatueVM_Stens;
-                xamlMember.Setter = set_80_OpretStatueVM_Stens;
+                xamlMember.Getter = get_99_OpretStatueVM_Stens;
+                xamlMember.Setter = set_99_OpretStatueVM_Stens;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Metal":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Metal", "System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_81_OpretStatueVM_Metal;
-                xamlMember.Setter = set_81_OpretStatueVM_Metal;
+                xamlMember.Getter = get_100_OpretStatueVM_Metal;
+                xamlMember.Setter = set_100_OpretStatueVM_Metal;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Andet":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Andet", "System.Collections.Generic.List`1<Gui_Eva.Model.Materiale>");
-                xamlMember.Getter = get_82_OpretStatueVM_Andet;
-                xamlMember.Setter = set_82_OpretStatueVM_Andet;
+                xamlMember.Getter = get_101_OpretStatueVM_Andet;
+                xamlMember.Setter = set_101_OpretStatueVM_Andet;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.facade":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "facade", "Gui_Eva.ViewModel.Facade");
-                xamlMember.Getter = get_83_OpretStatueVM_facade;
-                xamlMember.Setter = set_83_OpretStatueVM_facade;
+                xamlMember.Getter = get_102_OpretStatueVM_facade;
+                xamlMember.Setter = set_102_OpretStatueVM_facade;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Selindex":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Selindex", "Int32");
-                xamlMember.Getter = get_84_OpretStatueVM_Selindex;
-                xamlMember.Setter = set_84_OpretStatueVM_Selindex;
+                xamlMember.Getter = get_103_OpretStatueVM_Selindex;
+                xamlMember.Setter = set_103_OpretStatueVM_Selindex;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.OpretCommand":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "OpretCommand", "Eventmaker.Common.RelayCommand");
-                xamlMember.Getter = get_85_OpretStatueVM_OpretCommand;
-                xamlMember.Setter = set_85_OpretStatueVM_OpretCommand;
+                xamlMember.Getter = get_104_OpretStatueVM_OpretCommand;
+                xamlMember.Setter = set_104_OpretStatueVM_OpretCommand;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.AddTypeCommand":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "AddTypeCommand", "Eventmaker.Common.RelayCommand");
-                xamlMember.Getter = get_86_OpretStatueVM_AddTypeCommand;
-                xamlMember.Setter = set_86_OpretStatueVM_AddTypeCommand;
+                xamlMember.Getter = get_105_OpretStatueVM_AddTypeCommand;
+                xamlMember.Setter = set_105_OpretStatueVM_AddTypeCommand;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.LocationBind":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "LocationBind", "String");
-                xamlMember.Getter = get_87_OpretStatueVM_LocationBind;
-                xamlMember.Setter = set_87_OpretStatueVM_LocationBind;
+                xamlMember.Getter = get_106_OpretStatueVM_LocationBind;
+                xamlMember.Setter = set_106_OpretStatueVM_LocationBind;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Placeringbind":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Placeringbind", "String");
-                xamlMember.Getter = get_88_OpretStatueVM_Placeringbind;
-                xamlMember.Setter = set_88_OpretStatueVM_Placeringbind;
+                xamlMember.Getter = get_107_OpretStatueVM_Placeringbind;
+                xamlMember.Setter = set_107_OpretStatueVM_Placeringbind;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.Typebind":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "Typebind", "String");
-                xamlMember.Getter = get_89_OpretStatueVM_Typebind;
-                xamlMember.Setter = set_89_OpretStatueVM_Typebind;
+                xamlMember.Getter = get_108_OpretStatueVM_Typebind;
+                xamlMember.Setter = set_108_OpretStatueVM_Typebind;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.statueindex":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "statueindex", "Int32");
-                xamlMember.Getter = get_90_OpretStatueVM_statueindex;
-                xamlMember.Setter = set_90_OpretStatueVM_statueindex;
+                xamlMember.Getter = get_109_OpretStatueVM_statueindex;
+                xamlMember.Setter = set_109_OpretStatueVM_statueindex;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.placeringsindex":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "placeringsindex", "Int32");
-                xamlMember.Getter = get_91_OpretStatueVM_placeringsindex;
-                xamlMember.Setter = set_91_OpretStatueVM_placeringsindex;
+                xamlMember.Getter = get_110_OpretStatueVM_placeringsindex;
+                xamlMember.Setter = set_110_OpretStatueVM_placeringsindex;
                 break;
             case "Gui_Eva.ViewModel.OpretStatueVM.SelIndex":
                 userType = (global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Gui_Eva.ViewModel.OpretStatueVM");
                 xamlMember = new global::Gui_Eva.Gui_Eva_XamlTypeInfo.XamlMember(this, "SelIndex", "Int32");
-                xamlMember.Getter = get_92_OpretStatueVM_SelIndex;
-                xamlMember.Setter = set_92_OpretStatueVM_SelIndex;
+                xamlMember.Getter = get_111_OpretStatueVM_SelIndex;
+                xamlMember.Setter = set_111_OpretStatueVM_SelIndex;
                 break;
             }
             return xamlMember;

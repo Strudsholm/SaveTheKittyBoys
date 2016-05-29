@@ -73,7 +73,7 @@ namespace Gui_Eva
                 // configuring the new page by passing required information as a navigation
                 // parameter
                 //Forside er = opretstatue
-                rootFrame.Navigate(typeof(Forside), e.Arguments);
+                rootFrame.Navigate(typeof(Forside1), e.Arguments);
             }
             // Ensure the current window is active
             Window.Current.Activate();

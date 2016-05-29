@@ -25,42 +25,42 @@
                 <ImageBrush Stretch="Fill" ImageSource="Bileder/Eva Logo2.0.png"/>
             </Button.Background>
         </Button>
-        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="61" Margin="206,217,0,0" TextWrapping="Wrap" Text="Skadestyper" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
-        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="61" Margin="206,384,0,0" TextWrapping="Wrap" Text="Behandlingsaktioner" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
-        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="497,384,0,0" TextWrapping="Wrap" Text="Behandlingsfrekvens" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Margin="206,143,0,0" TextWrapping="Wrap" Text="{Binding Skadebind.Statue_ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="138" Height="58"/>
-        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Height="61" Margin="497,217,0,0" TextWrapping="Wrap" Text="Behandlingstype" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
-        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Height="61" Margin="206,453,0,0" TextWrapping="Wrap" Text="Pris" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
-        <TextBox x:Name="textBox_Copy6" HorizontalAlignment="Left" Margin="206,485,0,0" TextWrapping="Wrap" Text="{Binding Skadebind.Price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="138" Height="58"/>
-        <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Height="61" Margin="206,548,0,0" TextWrapping="Wrap" Text="Anbefalinger" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
-        <TextBox x:Name="textBox_Copy7" HorizontalAlignment="Left" Margin="206,584,0,0" TextWrapping="Wrap" Text="{Binding Skadebind.Anbefalinger, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="191" Height="115"/>
-        <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Margin="497,548,0,0" TextWrapping="Wrap" Text="Noter" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox_Copy8" HorizontalAlignment="Left" Margin="497,584,0,0" TextWrapping="Wrap" Text="{Binding Skadebind.Notes, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="229" Height="115"/>
-        <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Margin="879,155,0,0" TextWrapping="Wrap" Text="Billede af skader" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
-        <Grid HorizontalAlignment="Left" Margin="819,200,0,0" Width="269" Height="298" VerticalAlignment="Top">
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="61" Margin="206,189,0,0" TextWrapping="Wrap" Text="Skadestyper" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="61" Margin="206,356,0,0" TextWrapping="Wrap" Text="Behandlingsaktioner" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="497,356,0,0" TextWrapping="Wrap" Text="Behandlingsfrekvens" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Margin="206,115,0,0" TextWrapping="Wrap" Text="{Binding Skadebind.Statue_ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Height="61" Margin="497,189,0,0" TextWrapping="Wrap" Text="Behandlingstype" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Height="61" Margin="206,425,0,0" TextWrapping="Wrap" Text="Pris" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBox x:Name="textBox_Copy6" HorizontalAlignment="Left" Margin="206,457,0,0" TextWrapping="Wrap" Text="{Binding Skadebind.Price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="138" Height="58"/>
+        <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Height="61" Margin="206,520,0,0" TextWrapping="Wrap" Text="Anbefalinger" VerticalAlignment="Top" Width="229" FontSize="18.667"/>
+        <TextBox x:Name="textBox_Copy7" HorizontalAlignment="Left" Margin="206,556,0,0" TextWrapping="Wrap" Text="{Binding Skadebind.Anbefalinger, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="191" Height="115"/>
+        <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Margin="497,520,0,0" TextWrapping="Wrap" Text="Noter" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy8" HorizontalAlignment="Left" Margin="497,556,0,0" TextWrapping="Wrap" Text="{Binding Skadebind.Notes, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="229" Height="115"/>
+        <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Margin="879,127,0,0" TextWrapping="Wrap" Text="Billede af skader" Width="229" FontSize="18.667" Height="61" VerticalAlignment="Top"/>
+        <Grid HorizontalAlignment="Left" Margin="819,172,0,0" Width="269" Height="298" VerticalAlignment="Top">
             <Grid.Background>
                 <ImageBrush Stretch="Fill" ImageSource="the_damaged_statue_of_st_dominic_photo_by_sally_ra_1215301302.JPG"/>
             </Grid.Background>
         </Grid>
-        <Button x:Name="button" Content="Opret skade" HorizontalAlignment="Left" Height="39" Margin="879,542,0,0" VerticalAlignment="Top" Width="140">
+        <Button x:Name="button" Content="Administrative funktioner" HorizontalAlignment="Left" Height="55" Margin="879,714,0,0" VerticalAlignment="Top" Width="209">
             <Interactivity:Interaction.Behaviors>
                 <Core:EventTriggerBehavior EventName="Click">
                     <Core:NavigateToPageAction TargetPage="Gui_Eva.Adminstrative_Funktioner"/>
                 </Core:EventTriggerBehavior>
             </Interactivity:Interaction.Behaviors>
         </Button>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="206,103,0,0" TextWrapping="Wrap" Text="Statue ID" VerticalAlignment="Top" Height="35" Width="138" />
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="206,413,0,0" VerticalAlignment="Top" Width="138" Height="32" ItemsSource="{Binding Aktioner, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding Skadebind.BehandlingsAktion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-        <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="497,413,0,0" VerticalAlignment="Top" Width="138" Height="32" ItemsSource="{Binding Frekvens, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding Skadebind.Behandlingfrekvens, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-        <Button x:Name="button2" Content="Button" HorizontalAlignment="Right" Height="64" Margin="0,0,421,287" VerticalAlignment="Bottom" Width="140">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="206,75,0,0" TextWrapping="Wrap" Text="Statue ID" VerticalAlignment="Top" Height="35" Width="138" />
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="206,385,0,0" VerticalAlignment="Top" Width="138" Height="32" ItemsSource="{Binding Aktioner, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding Skadebind.BehandlingsAktion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="497,385,0,0" VerticalAlignment="Top" Width="138" Height="32" ItemsSource="{Binding Frekvens, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding Skadebind.Behandlingfrekvens, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <Button x:Name="button2" Content="Opret Skade" HorizontalAlignment="Left" Height="115" Margin="879,556,0,0" VerticalAlignment="Top" Width="209">
             <Interactivity:Interaction.Behaviors>
                 <Core:EventTriggerBehavior EventName="Click">
                     <Core:InvokeCommandAction Command="{Binding OpretSkadeCommand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 </Core:EventTriggerBehavior>
             </Interactivity:Interaction.Behaviors>
         </Button>
-        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Height="31" Margin="206,247,0,0" VerticalAlignment="Top" Width="138" ItemsSource="{Binding SkadesTyper, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-        <ComboBox x:Name="comboBox1_Copy" HorizontalAlignment="Left" Height="31" Margin="497,247,0,0" VerticalAlignment="Top" Width="138" ItemsSource="{Binding Behandlinger, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Height="31" Margin="206,219,0,0" VerticalAlignment="Top" Width="138" ItemsSource="{Binding SkadesTyper, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <ComboBox x:Name="comboBox1_Copy" HorizontalAlignment="Left" Height="31" Margin="497,219,0,0" VerticalAlignment="Top" Width="138" ItemsSource="{Binding Behandlinger, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
 
     </Grid>
 </Page>

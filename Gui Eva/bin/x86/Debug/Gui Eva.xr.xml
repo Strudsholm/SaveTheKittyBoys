@@ -4,9 +4,15 @@
     <RootPropertyPathName Name="ObservableStatueInfO" />
     <RootPropertyPathName Name="HentinfoCommand" />
     <RootPropertyPathName Name="id" />
+    <RootPropertyPathName Name="ObservableSkadeInfo" />
+    <RootPropertyPathName Name="TilføjedeMaterialer" />
+    <RootPropertyPathName Name="AddAndetCommand" />
+    <RootPropertyPathName Name="AddMetalCommand" />
     <RootPropertyPathName Name="Andets" />
+    <RootPropertyPathName Name="SelIndexAndet" />
     <RootPropertyPathName Name="Metals" />
-    <RootPropertyPathName Name="MaterialeCommand" />
+    <RootPropertyPathName Name="SelIndexMetal" />
+    <RootPropertyPathName Name="AddStenCommand" />
     <RootPropertyPathName Name="Stens" />
     <RootPropertyPathName Name="SelIndex" />
     <RootPropertyPathName Name="Behandlinger" />
@@ -140,6 +146,8 @@
     </RootType>
     <RootType FullName="Gui_Eva.FindStatue" />
     <RootType FullName="Gui_Eva.Adminstrative_Funktioner" />
+    <RootType FullName="Gui_Eva.ViewModel.FindSkade" />
+    <RootType FullName="Gui_Eva.FindSkade" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Gui_Eva.Forside1" />
     <RootType FullName="Gui_Eva.ViewModel.MaterialeVM" />

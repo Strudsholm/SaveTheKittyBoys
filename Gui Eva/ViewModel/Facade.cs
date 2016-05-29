@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.ApplicationModel.Chat;
 using Gui_Eva.Model;
 using Newtonsoft.Json;
 
@@ -15,12 +16,20 @@ namespace Gui_Eva.ViewModel
         private string serverUrl;
         private HttpClientHandler handler;
 
+        public Boolean svartype { get; set; }
+
         public Facade()
         {
             handler = new HttpClientHandler();
             serverUrl = "http://localhost:1087/";
             handler.UseDefaultCredentials = true;
+            
         }
+
+        /// <summary>
+        /// Implementeres i alle facade metoder.
+        /// </summary>
+        /// 
 
         public void handlersetup()
         {
@@ -28,7 +37,50 @@ namespace Gui_Eva.ViewModel
             serverUrl = "http://localhost:1087/";
             handler.UseDefaultCredentials = true;
         }
+       
+        /// <summary>
+        /// Henter skade information udfra Statue ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public List<SkadeInfoDTO> GetSkadeInfoByID(int id)
+        {
+            handlersetup();
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
+                var SkadeInfo = new List<SkadeInfoDTO>();
+
+                try
+                {
+                    var response = client.GetAsync("api/skader/"+id+"/findbyid").Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        var GuestJson = response.Content.ReadAsStringAsync().Result;
+
+                        SkadeInfo = JsonConvert.DeserializeObject<List<SkadeInfoDTO>>(GuestJson);
+                        return SkadeInfo;
+                    }
+                    //Mangler fejlhåndtering
+                    return null;
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+
+            }
+        }
+
+        /// <summary>
+        /// Henter statueinformation via den metode vi selv har skrevet i controlleren StatuesController Ud fra ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public List<StatueInfoDTO> GetStatueInfo(int id)
         {
             handlersetup();
@@ -49,23 +101,23 @@ namespace Gui_Eva.ViewModel
                         var GuestJson = response.Content.ReadAsStringAsync().Result;
 
                         StatueInfo = JsonConvert.DeserializeObject<List<StatueInfoDTO>>(GuestJson);
-
                         return StatueInfo;
-
                     }
                     //Mangler fejlhåndtering
                     return null;
                 }
                 catch (Exception e)
                 {
-
                     throw e;
-
                 }
 
             }
         }
 
+        /// <summary>
+        /// Henter behandlingstyper fra DB returner en List med Behandling objekter
+        /// </summary>
+        /// <returns></returns>
         public List<Behandling> GetBehandlingsType()
         {
             handlersetup();
@@ -428,12 +480,17 @@ namespace Gui_Eva.ViewModel
                 }
             }
         }
+
+        public void svar()
+        {
+            svartype = true;
+        }
         /// <summary>
         /// Opretter en statue.
         /// </summary>
         /// <param name="nyStatue"></param>
         /// <returns></returns>
-        public async Task CreateStatue(Statue nyStatue)
+        public async Task<string> CreateStatue(Statue nyStatue)
         {
             handlersetup();
             using (var client = new HttpClient(handler))
@@ -448,9 +505,10 @@ namespace Gui_Eva.ViewModel
                     var response = await client.PostAsJsonAsync("api/Statues", nyStatue);
                     if (response.IsSuccessStatusCode)
                     {
-
+                        return "success";
                     }
-            }
+                    return "failed";
+                }
                 catch (Exception)
             {
                 throw;
@@ -486,68 +544,6 @@ namespace Gui_Eva.ViewModel
                 {
                     throw;
 
-                }
-            }
-        }
-        /// <summary>
-        /// Opdaterer en statue.
-        /// </summary>
-        /// <param name="id"></param>
-        /// <param name="nyStatue"></param>
-        /// <returns></returns>
-        public async Task UpdateStatue(int id, Statue nyStatue)
-        {
-            handlersetup();
-            using (var client = new HttpClient(handler))
-            {
-                client.BaseAddress = new Uri(serverUrl);
-                client.DefaultRequestHeaders.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-                try
-                {
-                    var response = await client.PutAsJsonAsync("api/Statues/" + id, nyStatue);
-                    if (response.IsSuccessStatusCode)
-                    {
-
-                    }
-
-                }
-                catch (Exception)
-                {
-
-                    throw;
-                }
-            }
-        }
-        /// <summary>
-        /// Opdatere skade 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <param name="nySkader"></param>
-        /// <returns></returns>
-        public async Task UpdateSkade(int id, Skader nySkader)
-        {
-            handlersetup();
-            using (var client = new HttpClient(handler))
-            {
-                client.BaseAddress = new Uri(serverUrl);
-                client.DefaultRequestHeaders.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-                try
-                {
-                    var response = await client.PutAsJsonAsync("api/Skaders/" + id, nySkader);
-                    if (response.IsSuccessStatusCode)
-                    {
-
-                    }
-
-                }
-                catch (Exception)
-                {
-
-                    throw;
                 }
             }
         }

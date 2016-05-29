@@ -30,7 +30,6 @@ namespace Gui_Eva.ViewModel
 
             HentinfoCommand = new RelayCommand(soeg);
         }
-
         public void soeg()
         {
             StatueInfo = facade.GetStatueInfo(id);

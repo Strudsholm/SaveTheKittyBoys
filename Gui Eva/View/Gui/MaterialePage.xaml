@@ -16,9 +16,9 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid Margin="-1,-1,0,0" Background="#FF366BFF">
             <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="80" Margin="172,115,0,0" TextWrapping="Wrap" Text="Sten" VerticalAlignment="Top" Width="195" FontSize="48"/>
-            <TextBlock x:Name="textBlock1_Copy" Height="80" Margin="564,115,680,0" TextWrapping="Wrap" Text=" Metal" VerticalAlignment="Top" FontSize="48" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <TextBlock x:Name="textBlock1_Copy" Height="80" Margin="564,115,0,0" TextWrapping="Wrap" Text=" Metal" VerticalAlignment="Top" FontSize="48" HorizontalAlignment="Left" Width="197"/>
             <TextBlock x:Name="textBlock1_Copy1" Height="80" Margin="935,115,0,0" TextWrapping="Wrap" Text="Andre" VerticalAlignment="Top" FontSize="48" HorizontalAlignment="Left" Width="198"/>
-            <Button x:Name="button" Content="Gem Materiale" HorizontalAlignment="Left" Margin="564,581,0,0" VerticalAlignment="Top" Height="70" FontSize="26.667" Width="197">
+            <Button x:Name="button" Content="Færdig" HorizontalAlignment="Left" Margin="932,729,0,0" VerticalAlignment="Top" Height="70" FontSize="26.667" Width="197">
                 <Interactivity:Interaction.Behaviors>
                     <Core:EventTriggerBehavior EventName="Click">
                         <Core:NavigateToPageAction TargetPage="Gui_Eva.Forside"/>
@@ -36,15 +36,31 @@
                 </Button.Background>
             </Button>
             <ListView x:Name="listView" HorizontalAlignment="Left" Height="281" Margin="172,199,0,0" VerticalAlignment="Top" Width="195" ItemsSource="{Binding Stens, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedIndex="{Binding SelIndex, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" d:LayoutOverrides="VerticalAlignment"/>
-            <Button x:Name="button2" Content="Tilføj Materiale" HorizontalAlignment="Right" Height="70" Margin="0,0,415,310" VerticalAlignment="Bottom" Width="187" d:LayoutOverrides="TopMargin, BottomMargin">
+            <Button x:Name="button2" Content="Tilføj Sten" HorizontalAlignment="Left" Margin="173,485,0,0" VerticalAlignment="Top" Width="194" Height="70">
                 <Interactivity:Interaction.Behaviors>
                     <Core:EventTriggerBehavior EventName="Click">
-                        <Core:InvokeCommandAction Command="{Binding MaterialeCommand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        <Core:InvokeCommandAction Command="{Binding AddStenCommand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                     </Core:EventTriggerBehavior>
                 </Interactivity:Interaction.Behaviors>
             </Button>
-            <ListView x:Name="listView1" Margin="564,195,680,453" d:LayoutOverrides="LeftMargin, RightMargin, LeftPosition, RightPosition, TopPosition, BottomPosition" ItemsSource="{Binding Metals, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-            <ListView x:Name="listView2" HorizontalAlignment="Right" Margin="0,200,308,0" Width="198" Height="280" VerticalAlignment="Top" ItemsSource="{Binding Andets}"/>
+            <ListView x:Name="listView1" Margin="564,195,0,0" ItemsSource="{Binding Metals, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Width="197" Height="285" VerticalAlignment="Top" SelectedIndex="{Binding SelIndexMetal, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <ListView x:Name="listView2" HorizontalAlignment="Left" Margin="935,200,0,0" Width="194" Height="280" VerticalAlignment="Top" ItemsSource="{Binding Andets}" SelectedIndex="{Binding SelIndexAndet, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button x:Name="button3" Content="Tilføj Metal" HorizontalAlignment="Left" Height="70" Margin="565,485,0,0" VerticalAlignment="Top" Width="194">
+                <Interactivity:Interaction.Behaviors>
+                    <Core:EventTriggerBehavior EventName="Click">
+                        <Core:InvokeCommandAction Command="{Binding AddMetalCommand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    </Core:EventTriggerBehavior>
+                </Interactivity:Interaction.Behaviors>
+            </Button>
+            <Button x:Name="button3_Copy" Content="Tilføj Andre" HorizontalAlignment="Left" Height="70" Margin="935,485,0,0" VerticalAlignment="Top" Width="194">
+                <Interactivity:Interaction.Behaviors>
+                    <Core:EventTriggerBehavior EventName="Click">
+                        <Core:InvokeCommandAction Command="{Binding AddAndetCommand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    </Core:EventTriggerBehavior>
+                </Interactivity:Interaction.Behaviors>
+            </Button>
+            <ListView x:Name="listView3" HorizontalAlignment="Left" Height="192" Margin="565,583,0,0" VerticalAlignment="Top" Width="196" ItemsSource="{Binding TilføjedeMaterialer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="564,563,0,0" TextWrapping="Wrap" Text="Materialer tilføjet:" VerticalAlignment="Top"/>
         </Grid>
 
     </Grid>

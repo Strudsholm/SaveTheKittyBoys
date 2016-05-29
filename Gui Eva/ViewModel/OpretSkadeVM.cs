@@ -38,6 +38,7 @@ namespace Gui_Eva.ViewModel
             s = new List<SkadesTyper>();
             b = new List<Behandling>();
 
+            //Der er checkrestraint på Frekvens så jeg hardcoder bare værdier i stedet for man selv ska skrive.
             Frekvens = new List<int>();
             Frekvens.Add(1);
             Frekvens.Add(2);
@@ -45,6 +46,7 @@ namespace Gui_Eva.ViewModel
             Frekvens.Add(4);
             Frekvens.Add(5);
 
+            //Det samme som frekvens
             Aktioner = new List<string>();
             Aktioner.Add("Med det samme");
             Aktioner.Add("Behandlingsplan");
@@ -57,9 +59,8 @@ namespace Gui_Eva.ViewModel
             OpretSkadeCommand = new RelayCommand(OpretSkade);
             //TilføjBehandlingCommand = new RelayCommand(TilføjBehandling);
             //TilføjskadetypeCommand = new RelayCommand(TilføjSkadeType);
-
         }
-        //Skal bruges til tilføje behandling og skadestype til skaden.
+        //Skal bruges til tilføje behandling og skadestype til skaden. Kan implementeres på næsten samme måde som statuetype.
         //public void TilføjBehandling()
         //{
         //    s.Add(SkadeTypeS);
@@ -80,7 +81,6 @@ namespace Gui_Eva.ViewModel
             Skade.Behandlingfrekvens = Skadebind.Behandlingfrekvens;
             Skade.Price = Skadebind.Price;
             Skade.Notes = Skadebind.Notes;
-
             facade.CreateSkade(Skade);
         }
     }

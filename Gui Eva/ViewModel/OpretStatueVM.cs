@@ -26,7 +26,7 @@ namespace Gui_Eva.ViewModel
         public List<Materiale> Metal { get; set; }
         public List<Materiale> Andet { get; set; }
         public Facade facade { get; set; }
-        public static List<Materiale> MatID { get; set; }
+        //public static List<Materiale> MatID { get; set; }
         public int Selindex { get; set; }
         public RelayCommand OpretCommand { get; set; }
         public RelayCommand AddTypeCommand { get; set; }
@@ -41,22 +41,30 @@ namespace Gui_Eva.ViewModel
             facade = new Facade();
             NyStatue = new Statue();
             NystatueMat = new StatueMateriale();
-         
+
+            //Hardcoder igen pga checkrestraint for at undgå fejl.
             Placerings = new List<String>();
             Placerings.Add(("Facade"));
             Placerings.Add(("Building"));
             Placerings.Add(("Ground"));
 
+            
             StatueType = new List<KategoriType>();
             StatueType = facade.GetKategoriType();
+
             StatType = new List<KategoriType>();
             StaType = new StatueType();
             NyKategoriType = new KategoriType();
+
+
             OpretCommand = new RelayCommand(OpretStatue);
             AddTypeCommand = new RelayCommand(TilføjType);
             
         }
 
+        /// <summary>
+        /// Tilføjer typer til en liste vi senere laver foreach over og sætter ind i vores bindetable.
+        /// </summary>
         public void TilføjType()
         {
            StatType.Add(StatueType[SelIndex]);
@@ -74,6 +82,7 @@ namespace Gui_Eva.ViewModel
             stat.Placement = Placerings[placeringsindex];
             facade.CreateStatue(stat);
 
+            //Tager materialer fra statisk liste
             foreach (var i in MaterialeVM.MateID)
             {
                 NystatueMat.Materiale_ID = i.Materiale_ID;
@@ -81,6 +90,7 @@ namespace Gui_Eva.ViewModel
                 facade.CreateStatueMat(NystatueMat);
             }
 
+            //tager typer fra normal liste da vi ikke forlader view
             foreach (var k in StatType)
             {
                 StaType.Statue_ID = stat.Statue_ID;

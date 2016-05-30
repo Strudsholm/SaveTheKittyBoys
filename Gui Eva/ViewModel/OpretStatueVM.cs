@@ -36,6 +36,7 @@ namespace Gui_Eva.ViewModel
         public int statueindex { get; set; }
         public int placeringsindex { get; set; }
         public int SelIndex { get; set; }
+        public static string ExceptionHåndtering { get; set; }
         public OpretStatueVM()
         {
             facade = new Facade();

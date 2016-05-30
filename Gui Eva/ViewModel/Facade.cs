@@ -481,16 +481,13 @@ namespace Gui_Eva.ViewModel
             }
         }
 
-        public void svar()
-        {
-            svartype = true;
-        }
+       
         /// <summary>
         /// Opretter en statue.
         /// </summary>
         /// <param name="nyStatue"></param>
         /// <returns></returns>
-        public async Task<string> CreateStatue(Statue nyStatue)
+        public async Task CreateStatue(Statue nyStatue)
         {
             handlersetup();
             using (var client = new HttpClient(handler))
@@ -505,9 +502,9 @@ namespace Gui_Eva.ViewModel
                     var response = await client.PostAsJsonAsync("api/Statues", nyStatue);
                     if (response.IsSuccessStatusCode)
                     {
-                        return "success";
+                        
                     }
-                    return "failed";
+                    
                 }
                 catch (Exception)
             {

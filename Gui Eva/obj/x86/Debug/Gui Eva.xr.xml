@@ -27,6 +27,7 @@
     <RootPropertyPathName Name="Anbefalinger" />
     <RootPropertyPathName Name="Price" />
     <RootPropertyPathName Name="Statue_ID" />
+    <RootPropertyPathName Name="ExceptionHåndtering" />
     <RootPropertyPathName Name="AddTypeCommand" />
     <RootPropertyPathName Name="OpretCommand" />
     <RootPropertyPathName Name="NyStatue" />

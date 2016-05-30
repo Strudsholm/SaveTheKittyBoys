@@ -79,6 +79,7 @@
                     </Core:EventTriggerBehavior>
                 </Interactivity:Interaction.Behaviors>
             </Button>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="26" Margin="821,643,0,0" TextWrapping="Wrap" Text="{Binding ExceptionHåndtering, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="272"/>
         </Grid>
         <Button x:Name="button1" Content="Materiale" Height="79" VerticalAlignment="Top" Width="193">
             <Interactivity:Interaction.Behaviors>

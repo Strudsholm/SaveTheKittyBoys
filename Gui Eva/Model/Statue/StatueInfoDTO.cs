@@ -20,7 +20,7 @@ namespace Gui_Eva.Model
 
         public override string ToString()
         {
-            return $"StatueID: {StatueID}, statuenavn: {statuenavn}, location: {location}, placement: {placement}, History: {History}, Note: {Note}, MaterialeType: {MaterialeType}, MaterialeNavn: {MaterialeNavn}, TypeNavn: {TypeNavn}";
+            return $"statuenavn: {statuenavn}, location: {location}, placement: {placement}, History: {History}, Note: {Note}, MaterialeNavn: {MaterialeNavn}, TypeNavn: {TypeNavn}";
         }
     }
 }
